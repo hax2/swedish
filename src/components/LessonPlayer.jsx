@@ -60,12 +60,12 @@ const buildMergedItems = (sentences, moduleId) => {
   return items;
 };
 
-/** Speak a Spanish word/phrase */
-const speakSpanish = (text) => {
+/** Speak a Swedish word/phrase */
+const speakSwedish = (text) => {
   if (!text) return;
   window.speechSynthesis.cancel();
   const u = new SpeechSynthesisUtterance(text);
-  u.lang = 'es-ES';
+  u.lang = 'sv-SE';
   u.rate = 0.85;
   window.speechSynthesis.speak(u);
 };
@@ -73,7 +73,7 @@ const speakSpanish = (text) => {
 /* ── component ───────────────────────────────────────────── */
 const LessonPlayer = ({ module, modules, moduleIndex, onBack, onNextModule }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [spanishRevealed, setSpanishRevealed] = useState(false);
+  const [swedishRevealed, setSwedishRevealed] = useState(false);
   const [englishRevealed, setEnglishRevealed] = useState(false);
   const [activeWordIndex, setActiveWordIndex] = useState(null);
   const [challengeAnswerRevealed, setChallengeAnswerRevealed] = useState(false);
@@ -100,11 +100,11 @@ const LessonPlayer = ({ module, modules, moduleIndex, onBack, onNextModule }) =>
 
   /* reset + auto-play on item change */
   useEffect(() => {
-    setSpanishRevealed(false);
+    setSwedishRevealed(false);
     setEnglishRevealed(false);
     setActiveWordIndex(null);
     setChallengeAnswerRevealed(false);
-    if (!isChallenge && sentence?.spanish) speakSpanish(sentence.spanish);
+    if (!isChallenge && sentence?.swedish) speakSwedish(sentence.swedish);
   }, [currentIndex, module]);
 
   /* reset to item 0 and clear extras when module changes */
@@ -113,7 +113,7 @@ const LessonPlayer = ({ module, modules, moduleIndex, onBack, onNextModule }) =>
     setExtraItems([]);
   }, [module]);
 
-  const playAudio = () => sentence && speakSpanish(sentence.spanish);
+  const playAudio = () => sentence && speakSwedish(sentence.swedish);
 
   const handleNext = () => setCurrentIndex((p) => p + 1);
   const handlePrev = () => setCurrentIndex((p) => Math.max(0, p - 1));
@@ -149,7 +149,7 @@ const LessonPlayer = ({ module, modules, moduleIndex, onBack, onNextModule }) =>
             <table className="vocab-table">
               <thead>
                 <tr>
-                  <th>Spanish</th>
+                  <th>Swedish</th>
                   <th>Meaning</th>
                 </tr>
               </thead>
@@ -158,7 +158,7 @@ const LessonPlayer = ({ module, modules, moduleIndex, onBack, onNextModule }) =>
                   <tr key={word}>
                     <td 
                       className="vocab-word" 
-                      onClick={() => speakSpanish(word)}
+                      onClick={() => speakSwedish(word)}
                       title={`Play "${word}"`}
                     >
                       {word}
@@ -215,7 +215,7 @@ const LessonPlayer = ({ module, modules, moduleIndex, onBack, onNextModule }) =>
 
           {/* Prompt */}
           <div className="challenge-prompt">
-            <p className="challenge-instruction">Translate this sentence into Spanish:</p>
+            <p className="challenge-instruction">Translate this sentence into Swedish:</p>
             <p className="challenge-english">{challengeSentence.english}</p>
           </div>
 
@@ -226,17 +226,17 @@ const LessonPlayer = ({ module, modules, moduleIndex, onBack, onNextModule }) =>
                 className="btn-primary btn-reveal-answer pulse-primary"
                 onClick={() => {
                   setChallengeAnswerRevealed(true);
-                  speakSpanish(challengeSentence.spanish);
+                  speakSwedish(challengeSentence.swedish);
                 }}
               >
                 Reveal Answer
               </button>
             ) : (
               <div className="challenge-answer animate-fade-in">
-                <p className="challenge-spanish">{challengeSentence.spanish}</p>
+                <p className="challenge-swedish">{challengeSentence.swedish}</p>
                 <button
                   className="btn-play-answer"
-                  onClick={() => speakSpanish(challengeSentence.spanish)}
+                  onClick={() => speakSwedish(challengeSentence.swedish)}
                   title="Listen to the answer"
                 >
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
@@ -267,7 +267,7 @@ const LessonPlayer = ({ module, modules, moduleIndex, onBack, onNextModule }) =>
   }
 
   /* ── NORMAL LESSON SCREEN ───────────────────────────────── */
-  const words = sentence.spanish.split(' ');
+  const words = (sentence?.swedish || "").split(' ');
   const progressPercentage = (sentencesSoFar / totalSentences) * 100;
 
   return (
@@ -299,7 +299,7 @@ const LessonPlayer = ({ module, modules, moduleIndex, onBack, onNextModule }) =>
           <button
             className="btn-play pulse-primary"
             onClick={playAudio}
-            title="Listen to Spanish"
+            title="Listen to Swedish"
           >
             <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
               <path d="M8 5v14l11-7z" />
@@ -307,25 +307,25 @@ const LessonPlayer = ({ module, modules, moduleIndex, onBack, onNextModule }) =>
           </button>
         </div>
 
-        {/* Spanish Text Area */}
-        <div className="spanish-area">
-          {!spanishRevealed ? (
-            <button className="btn-reveal" onClick={() => setSpanishRevealed(true)}>
-              Reveal Spanish text
+        {/* Swedish Text Area */}
+        <div className="swedish-area">
+          {!swedishRevealed ? (
+            <button className="btn-reveal" onClick={() => setSwedishRevealed(true)}>
+              Reveal Swedish text
             </button>
           ) : (
-            <div className="spanish-sentence animate-fade-in">
+            <div className="swedish-sentence animate-fade-in">
               {words.map((word, idx) => {
                 const meaning = getMeaning(word);
                 const isActive = activeWordIndex === idx;
                 return (
                   <div key={idx} className="word-container">
                     <span
-                      className={`spanish-word ${meaning ? 'has-meaning' : ''} ${isActive ? 'active' : ''}`}
+                      className={`swedish-word ${meaning ? 'has-meaning' : ''} ${isActive ? 'active' : ''}`}
                       onClick={() => {
                         if (meaning) {
                           setActiveWordIndex(isActive ? null : idx);
-                          speakSpanish(cleanWord(word));
+                          speakSwedish(cleanWord(word));
                         }
                       }}
                     >

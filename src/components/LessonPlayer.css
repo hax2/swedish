@@ -199,7 +199,7 @@
   transform: scale(0.95);
 }
 
-.spanish-area {
+.swedish-area {
   min-height: 80px;
   display: flex;
   align-items: center;
@@ -225,7 +225,7 @@
   border-color: var(--accent-glow);
 }
 
-.spanish-sentence {
+.swedish-sentence {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -240,7 +240,7 @@
   position: relative;
 }
 
-.spanish-word {
+.swedish-word {
   padding: 0.25rem 0.5rem;
   border-radius: var(--radius-sm);
   transition: all var(--transition-fast);
@@ -248,17 +248,17 @@
   display: inline-block;
 }
 
-.spanish-word.has-meaning {
+.swedish-word.has-meaning {
   cursor: pointer;
   border-bottom: 2px dotted rgba(255, 255, 255, 0.3);
 }
 
-.spanish-word.has-meaning:hover {
+.swedish-word.has-meaning:hover {
   background: rgba(255, 255, 255, 0.1);
   border-bottom-color: var(--accent-glow);
 }
 
-.spanish-word.active {
+.swedish-word.active {
   background: rgba(168, 85, 247, 0.2);
   color: var(--accent-glow);
   border-bottom-color: var(--accent-base);
@@ -444,7 +444,7 @@
   width: 100%;
 }
 
-.challenge-spanish {
+.challenge-swedish {
   font-size: 2rem;
   font-weight: 600;
   color: var(--accent-glow);
@@ -542,8 +542,8 @@
     height: 32px;
   }
 
-  /* Smaller spanish text */
-  .spanish-sentence {
+  /* Smaller swedish text */
+  .swedish-sentence {
     font-size: 1.5rem;
     gap: 0.35rem;
   }
@@ -553,7 +553,7 @@
     font-size: 1.35rem;
     padding: 0.35rem 0.5rem;
   }
-  .challenge-spanish {
+  .challenge-swedish {
     font-size: 1.5rem;
     padding: 0.75rem 1rem;
   }
