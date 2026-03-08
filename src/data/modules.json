@@ -1,0 +1,5630 @@
+[
+  {
+    "id": "module-1",
+    "title": "Chapter 1: The Basics",
+    "description": "Start your journey with fundamental greetings and common questions.",
+    "level": "Beginner",
+    "sentences": [
+      {
+        "id": "m1-s1",
+        "spanish": "Hola.",
+        "english": "Hello.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m1-s2",
+        "spanish": "Buenos días.",
+        "english": "Good morning.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m1-s3",
+        "spanish": "Buenas tardes.",
+        "english": "Good afternoon.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m1-s4",
+        "spanish": "Buenas noches.",
+        "english": "Good evening./Good night.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m1-s5",
+        "spanish": "Adiós.",
+        "english": "Goodbye.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m1-s6",
+        "spanish": "Hasta luego.",
+        "english": "See you later.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m1-s7",
+        "spanish": "Por favor.",
+        "english": "Please.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m1-s8",
+        "spanish": "Gracias.",
+        "english": "Thank you.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m1-s9",
+        "spanish": "Muchas gracias.",
+        "english": "Thank you very much.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m1-s10",
+        "spanish": "De nada.",
+        "english": "You're welcome.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m1-s11",
+        "spanish": "Sí.",
+        "english": "Yes.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m1-s12",
+        "spanish": "No.",
+        "english": "No.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m1-s13",
+        "spanish": "Soy Ana.",
+        "english": "I am Ana.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m1-s14",
+        "spanish": "Soy Luis.",
+        "english": "I am Luis.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m1-s15",
+        "spanish": "Soy Marta.",
+        "english": "I am Marta.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m1-s16",
+        "spanish": "Soy Carlos.",
+        "english": "I am Carlos.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m1-s17",
+        "spanish": "¿Eres Ana?",
+        "english": "Are you Ana?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m1-s18",
+        "spanish": "Sí, soy Ana.",
+        "english": "Yes, I am Ana.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m1-s19",
+        "spanish": "No, no soy Ana.",
+        "english": "No, I am not Ana.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m1-s20",
+        "spanish": "¿Eres Luis?",
+        "english": "Are you Luis?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m1-s21",
+        "spanish": "Sí, soy Luis.",
+        "english": "Yes, I am Luis.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m1-s22",
+        "spanish": "No, no soy Luis.",
+        "english": "No, I am not Luis.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m1-s23",
+        "spanish": "¿Quién eres?",
+        "english": "Who are you?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m1-s24",
+        "spanish": "Soy estudiante.",
+        "english": "I am a student.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m1-s25",
+        "spanish": "Eres estudiante.",
+        "english": "You are a student.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m1-s26",
+        "spanish": "Él es estudiante.",
+        "english": "He is a student.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m1-s27",
+        "spanish": "Ella es estudiante.",
+        "english": "She is a student.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m1-s28",
+        "spanish": "¿Quién es él?",
+        "english": "Who is he?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m1-s29",
+        "spanish": "Él es Carlos.",
+        "english": "He is Carlos.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m1-s30",
+        "spanish": "¿Quién es ella?",
+        "english": "Who is she?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m1-s31",
+        "spanish": "Ella es Marta.",
+        "english": "She is Marta.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m1-s32",
+        "spanish": "Somos amigos.",
+        "english": "We are friends.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m1-s33",
+        "spanish": "Somos estudiantes.",
+        "english": "We are students.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m1-s34",
+        "spanish": "¿Son ustedes estudiantes?",
+        "english": "Are you (plural) students?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m1-s35",
+        "spanish": "Sí, somos estudiantes.",
+        "english": "Yes, we are students.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m1-s36",
+        "spanish": "No, no somos estudiantes.",
+        "english": "No, we are not students.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m1-s37",
+        "spanish": "Ana y Luis son amigos.",
+        "english": "Ana and Luis are friends.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m1-s38",
+        "spanish": "Marta y Carlos son amigos.",
+        "english": "Marta and Carlos are friends.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m1-s39",
+        "spanish": "¿Eres mi amigo?",
+        "english": "Are you my friend?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m1-s40",
+        "spanish": "Sí, soy tu amigo.",
+        "english": "Yes, I am your friend.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m1-s41",
+        "spanish": "¿Eres mi amiga?",
+        "english": "Are you my friend (female)?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m1-s42",
+        "spanish": "Sí, soy tu amiga.",
+        "english": "Yes, I am your friend (female).",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m1-s43",
+        "spanish": "Carlos es mi amigo.",
+        "english": "Carlos is my friend.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m1-s44",
+        "spanish": "Ana es mi amiga.",
+        "english": "Ana is my friend.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m1-s45",
+        "spanish": "¿Eres Carlos?",
+        "english": "Are you Carlos?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m1-s46",
+        "spanish": "No, soy Luis.",
+        "english": "No, I am Luis.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m1-s47",
+        "spanish": "¿Eres Marta?",
+        "english": "Are you Marta?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m1-s48",
+        "spanish": "No, soy Ana.",
+        "english": "No, I am Ana.",
+        "wordMeanings": {}
+      }
+    ]
+  },
+  {
+    "id": "module-2",
+    "title": "Chapter 2: At the Restaurant",
+    "description": "Learn to order food and ask for the bill.",
+    "level": "Beginner",
+    "sentences": [
+      {
+        "id": "m2-s1",
+        "spanish": "¿Dónde estás?",
+        "english": "Where are you?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m2-s2",
+        "spanish": "Estoy aquí.",
+        "english": "I am here.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m2-s3",
+        "spanish": "Estoy allí.",
+        "english": "I am there.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m2-s4",
+        "spanish": "Estoy en casa.",
+        "english": "I am at home.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m2-s5",
+        "spanish": "Estoy en la escuela.",
+        "english": "I am at school.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m2-s6",
+        "spanish": "Estoy en el trabajo.",
+        "english": "I am at work.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m2-s7",
+        "spanish": "Estoy en el centro.",
+        "english": "I am downtown/in the center.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m2-s8",
+        "spanish": "Estoy en la calle.",
+        "english": "I am in the street.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m2-s9",
+        "spanish": "Estoy en el café.",
+        "english": "I am in the café.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m2-s10",
+        "spanish": "¿Dónde está Ana?",
+        "english": "Where is Ana?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m2-s11",
+        "spanish": "Ana está en casa.",
+        "english": "Ana is at home.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m2-s12",
+        "spanish": "¿Dónde está Luis?",
+        "english": "Where is Luis?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m2-s13",
+        "spanish": "Luis está en la escuela.",
+        "english": "Luis is at school.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m2-s14",
+        "spanish": "¿Dónde está Marta?",
+        "english": "Where is Marta?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m2-s15",
+        "spanish": "Marta está en el trabajo.",
+        "english": "Marta is at work.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m2-s16",
+        "spanish": "¿Dónde está Carlos?",
+        "english": "Where is Carlos?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m2-s17",
+        "spanish": "Carlos está en el café.",
+        "english": "Carlos is in the café.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m2-s18",
+        "spanish": "¿Estás en casa ahora?",
+        "english": "Are you at home now?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m2-s19",
+        "spanish": "Sí, estoy en casa ahora.",
+        "english": "Yes, I am at home now.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m2-s20",
+        "spanish": "No, no estoy en casa ahora.",
+        "english": "No, I am not at home now.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m2-s21",
+        "spanish": "¿Estás en el trabajo hoy?",
+        "english": "Are you at work today?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m2-s22",
+        "spanish": "Sí, estoy en el trabajo hoy.",
+        "english": "Yes, I am at work today.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m2-s23",
+        "spanish": "No, no estoy en el trabajo hoy.",
+        "english": "No, I am not at work today.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m2-s24",
+        "spanish": "Estoy cerca.",
+        "english": "I am nearby.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m2-s25",
+        "spanish": "Estoy lejos.",
+        "english": "I am far away.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m2-s26",
+        "spanish": "La casa está cerca.",
+        "english": "The house is nearby.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m2-s27",
+        "spanish": "La escuela está lejos.",
+        "english": "The school is far away.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m2-s28",
+        "spanish": "¿La casa está cerca?",
+        "english": "Is the house nearby?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m2-s29",
+        "spanish": "Sí, la casa está cerca.",
+        "english": "Yes, the house is nearby.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m2-s30",
+        "spanish": "¿La escuela está lejos?",
+        "english": "Is the school far away?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m2-s31",
+        "spanish": "Sí, la escuela está lejos.",
+        "english": "Yes, the school is far away.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m2-s32",
+        "spanish": "Somos amigos y estamos aquí.",
+        "english": "We are friends and we are here.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m2-s33",
+        "spanish": "Soy Ana y estoy en casa.",
+        "english": "I am Ana and I am at home.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m2-s34",
+        "spanish": "¿Dónde están ustedes?",
+        "english": "Where are you (plural)?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m2-s35",
+        "spanish": "Estamos aquí.",
+        "english": "We are here.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m2-s36",
+        "spanish": "Estamos allí.",
+        "english": "We are there.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m2-s37",
+        "spanish": "Estamos en el café.",
+        "english": "We are in the café.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m2-s38",
+        "spanish": "Hoy estoy en casa.",
+        "english": "Today I am at home.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m2-s39",
+        "spanish": "Hoy estoy en el centro.",
+        "english": "Today I am downtown.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m2-s40",
+        "spanish": "Hoy no estoy en la escuela.",
+        "english": "Today I am not at school.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m2-s41",
+        "spanish": "¿Está Ana aquí?",
+        "english": "Is Ana here?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m2-s42",
+        "spanish": "No, Ana no está aquí.",
+        "english": "No, Ana is not here.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m2-s43",
+        "spanish": "Ana está allí.",
+        "english": "Ana is there.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m2-s44",
+        "spanish": "¿Está Luis en el café?",
+        "english": "Is Luis in the café?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m2-s45",
+        "spanish": "Sí, Luis está en el café.",
+        "english": "Yes, Luis is in the café.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m2-s46",
+        "spanish": "¿Están Marta y Carlos en casa?",
+        "english": "Are Marta and Carlos at home?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m2-s47",
+        "spanish": "No, están en el trabajo.",
+        "english": "No, they are at work.",
+        "wordMeanings": {}
+      }
+    ]
+  },
+  {
+    "id": "module-3",
+    "title": "Chapter 3",
+    "description": "Practice sentences for Chapter 3.",
+    "level": "Beginner",
+    "sentences": [
+      {
+        "id": "m3-s1",
+        "spanish": "El libro es nuevo.",
+        "english": "The book is new.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m3-s2",
+        "spanish": "La casa es nueva.",
+        "english": "The house is new.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m3-s3",
+        "spanish": "Los libros son nuevos.",
+        "english": "The books are new.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m3-s4",
+        "spanish": "Las casas son nuevas.",
+        "english": "The houses are new.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m3-s5",
+        "spanish": "Un libro es pequeño.",
+        "english": "A book is small.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m3-s6",
+        "spanish": "Una casa es grande.",
+        "english": "A house is big.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m3-s7",
+        "spanish": "El café es pequeño.",
+        "english": "The café is small.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m3-s8",
+        "spanish": "La escuela es grande.",
+        "english": "The school is big.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m3-s9",
+        "spanish": "El coche es nuevo.",
+        "english": "The car is new.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m3-s10",
+        "spanish": "El coche es viejo.",
+        "english": "The car is old.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m3-s11",
+        "spanish": "La mesa es pequeña.",
+        "english": "The table is small.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m3-s12",
+        "spanish": "La mesa es grande.",
+        "english": "The table is big.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m3-s13",
+        "spanish": "Un problema es grande.",
+        "english": "A problem is big.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m3-s14",
+        "spanish": "Una idea es buena.",
+        "english": "An idea is good.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m3-s15",
+        "spanish": "El libro está aquí.",
+        "english": "The book is here.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m3-s16",
+        "spanish": "La mesa está allí.",
+        "english": "The table is there.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m3-s17",
+        "spanish": "Los libros están aquí.",
+        "english": "The books are here.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m3-s18",
+        "spanish": "Las mesas están allí.",
+        "english": "The tables are there.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m3-s19",
+        "spanish": "Estoy en el café.",
+        "english": "I am in the café.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m3-s20",
+        "spanish": "Estoy en la escuela.",
+        "english": "I am at the school.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m3-s21",
+        "spanish": "Estamos en el centro.",
+        "english": "We are downtown.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m3-s22",
+        "spanish": "¿Dónde está el libro?",
+        "english": "Where is the book?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m3-s23",
+        "spanish": "El libro está en casa.",
+        "english": "The book is at home.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m3-s24",
+        "spanish": "¿Dónde está la casa?",
+        "english": "Where is the house?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m3-s25",
+        "spanish": "La casa está cerca.",
+        "english": "The house is near.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m3-s26",
+        "spanish": "Ana es estudiante.",
+        "english": "Ana is a student.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m3-s27",
+        "spanish": "Luis es estudiante.",
+        "english": "Luis is a student.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m3-s28",
+        "spanish": "Ana y Luis son amigos.",
+        "english": "Ana and Luis are friends.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m3-s29",
+        "spanish": "Un café está en el centro.",
+        "english": "A café is downtown.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m3-s30",
+        "spanish": "Una escuela está lejos.",
+        "english": "A school is far away.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m3-s31",
+        "spanish": "El problema es difícil.",
+        "english": "The problem is difficult.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m3-s32",
+        "spanish": "La idea es importante.",
+        "english": "The idea is important.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m3-s33",
+        "spanish": "Los problemas son difíciles.",
+        "english": "The problems are difficult.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m3-s34",
+        "spanish": "Las ideas son importantes.",
+        "english": "The ideas are important.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m3-s35",
+        "spanish": "El café está frío.",
+        "english": "The coffee is cold.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m3-s36",
+        "spanish": "La sopa está caliente.",
+        "english": "The soup is hot.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m3-s37",
+        "spanish": "Los cafés están fríos.",
+        "english": "The coffees are cold.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m3-s38",
+        "spanish": "Las sopas están calientes.",
+        "english": "The soups are hot.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m3-s39",
+        "spanish": "¿Es un libro o una mesa?",
+        "english": "Is it a book or a table?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m3-s40",
+        "spanish": "Es un libro.",
+        "english": "It is a book.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m3-s41",
+        "spanish": "¿Es una casa o un café?",
+        "english": "Is it a house or a café?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m3-s42",
+        "spanish": "Es un café.",
+        "english": "It is a café.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m3-s43",
+        "spanish": "¿Son libros o coches?",
+        "english": "Are they books or cars?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m3-s44",
+        "spanish": "Son libros.",
+        "english": "They are books.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m3-s45",
+        "spanish": "¿Son casas o escuelas?",
+        "english": "Are they houses or schools?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m3-s46",
+        "spanish": "Son escuelas.",
+        "english": "They are schools.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m3-s47",
+        "spanish": "El libro es grande.",
+        "english": "The book is big.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m3-s48",
+        "spanish": "La casa es pequeña.",
+        "english": "The house is small.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m3-s49",
+        "spanish": "Los libros son pequeños.",
+        "english": "The books are small.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m3-s50",
+        "spanish": "Las casas son grandes.",
+        "english": "The houses are big.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m3-s51",
+        "spanish": "Estoy en un café.",
+        "english": "I am in a café.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m3-s52",
+        "spanish": "Estoy en una casa.",
+        "english": "I am in a house.",
+        "wordMeanings": {}
+      }
+    ]
+  },
+  {
+    "id": "module-4",
+    "title": "Chapter 4",
+    "description": "Practice sentences for Chapter 4.",
+    "level": "Beginner",
+    "sentences": [
+      {
+        "id": "m4-s1",
+        "spanish": "Tengo un libro.",
+        "english": "I have a book.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m4-s2",
+        "spanish": "Tengo dos libros.",
+        "english": "I have two books.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m4-s3",
+        "spanish": "Tengo una casa.",
+        "english": "I have a house.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m4-s4",
+        "spanish": "Tengo un coche.",
+        "english": "I have a car.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m4-s5",
+        "spanish": "¿Tienes un libro?",
+        "english": "Do you have a book?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m4-s6",
+        "spanish": "Sí, tengo un libro.",
+        "english": "Yes, I have a book.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m4-s7",
+        "spanish": "No, no tengo un libro.",
+        "english": "No, I don't have a book.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m4-s8",
+        "spanish": "¿Tienes una casa?",
+        "english": "Do you have a house?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m4-s9",
+        "spanish": "Sí, tengo una casa.",
+        "english": "Yes, I have a house.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m4-s10",
+        "spanish": "No, no tengo una casa.",
+        "english": "No, I don't have a house.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m4-s11",
+        "spanish": "Ana tiene un libro.",
+        "english": "Ana has a book.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m4-s12",
+        "spanish": "Luis tiene un coche.",
+        "english": "Luis has a car.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m4-s13",
+        "spanish": "Marta tiene una casa.",
+        "english": "Marta has a house.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m4-s14",
+        "spanish": "Carlos tiene una mesa.",
+        "english": "Carlos has a table.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m4-s15",
+        "spanish": "Tenemos un problema.",
+        "english": "We have a problem.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m4-s16",
+        "spanish": "Tenemos una idea.",
+        "english": "We have an idea.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m4-s17",
+        "spanish": "¿Tienen ustedes tiempo?",
+        "english": "Do you (plural) have time?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m4-s18",
+        "spanish": "Sí, tenemos tiempo.",
+        "english": "Yes, we have time.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m4-s19",
+        "spanish": "No, no tenemos tiempo.",
+        "english": "No, we don't have time.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m4-s20",
+        "spanish": "Tengo dinero.",
+        "english": "I have money.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m4-s21",
+        "spanish": "No tengo dinero.",
+        "english": "I have no money.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m4-s22",
+        "spanish": "¿Cuánto dinero tienes?",
+        "english": "How much money do you have?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m4-s23",
+        "spanish": "Tengo diez euros.",
+        "english": "I have ten euros.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m4-s24",
+        "spanish": "Tengo veinte euros.",
+        "english": "I have twenty euros.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m4-s25",
+        "spanish": "Tengo hambre.",
+        "english": "I am hungry.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m4-s26",
+        "spanish": "Tengo sed.",
+        "english": "I am thirsty.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m4-s27",
+        "spanish": "¿Tienes hambre?",
+        "english": "Are you hungry?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m4-s28",
+        "spanish": "Sí, tengo hambre.",
+        "english": "Yes, I am hungry.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m4-s29",
+        "spanish": "No, no tengo hambre.",
+        "english": "No, I am not hungry.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m4-s30",
+        "spanish": "Tengo dieciocho años.",
+        "english": "I am eighteen years old.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m4-s31",
+        "spanish": "Tengo veinte años.",
+        "english": "I am twenty years old.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m4-s32",
+        "spanish": "¿Cuántos años tienes?",
+        "english": "How old are you?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m4-s33",
+        "spanish": "Tengo dieciséis años.",
+        "english": "I am sixteen years old.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m4-s34",
+        "spanish": "Luis tiene treinta años.",
+        "english": "Luis is thirty years old.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m4-s35",
+        "spanish": "Tengo un hermano.",
+        "english": "I have a brother.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m4-s36",
+        "spanish": "Tengo una hermana.",
+        "english": "I have a sister.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m4-s37",
+        "spanish": "¿Tienes hermanos?",
+        "english": "Do you have siblings?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m4-s38",
+        "spanish": "Sí, tengo dos hermanos.",
+        "english": "Yes, I have two brothers.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m4-s39",
+        "spanish": "No, no tengo hermanos.",
+        "english": "No, I don't have siblings.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m4-s40",
+        "spanish": "Tengo un amigo en el centro.",
+        "english": "I have a friend downtown.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m4-s41",
+        "spanish": "Tengo una amiga en la escuela.",
+        "english": "I have a friend (female) at school.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m4-s42",
+        "spanish": "Ana está en casa y tiene hambre.",
+        "english": "Ana is at home and is hungry.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m4-s43",
+        "spanish": "Luis está en el café y tiene sed.",
+        "english": "Luis is in the café and is thirsty.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m4-s44",
+        "spanish": "Tengo un libro nuevo.",
+        "english": "I have a new book.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m4-s45",
+        "spanish": "Tengo una casa grande.",
+        "english": "I have a big house.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m4-s46",
+        "spanish": "Tengo dos libros pequeños.",
+        "english": "I have two small books.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m4-s47",
+        "spanish": "Tengo un problema grande.",
+        "english": "I have a big problem.",
+        "wordMeanings": {}
+      }
+    ]
+  },
+  {
+    "id": "module-5",
+    "title": "Chapter 5",
+    "description": "Practice sentences for Chapter 5.",
+    "level": "Beginner",
+    "sentences": [
+      {
+        "id": "m5-s1",
+        "spanish": "Yo hablo español.",
+        "english": "I speak Spanish.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m5-s2",
+        "spanish": "Tú hablas español.",
+        "english": "You speak Spanish.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m5-s3",
+        "spanish": "Él habla español.",
+        "english": "He speaks Spanish.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m5-s4",
+        "spanish": "Ella habla español.",
+        "english": "She speaks Spanish.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m5-s5",
+        "spanish": "Nosotros hablamos español.",
+        "english": "We speak Spanish.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m5-s6",
+        "spanish": "Ustedes hablan español.",
+        "english": "You (plural) speak Spanish.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m5-s7",
+        "spanish": "Yo trabajo hoy.",
+        "english": "I work today.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m5-s8",
+        "spanish": "Tú trabajas hoy.",
+        "english": "You work today.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m5-s9",
+        "spanish": "Él trabaja en casa.",
+        "english": "He works at home.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m5-s10",
+        "spanish": "Ella trabaja en el centro.",
+        "english": "She works downtown.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m5-s11",
+        "spanish": "Nosotros trabajamos aquí.",
+        "english": "We work here.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m5-s12",
+        "spanish": "Yo estudio en casa.",
+        "english": "I study at home.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m5-s13",
+        "spanish": "Tú estudias en la escuela.",
+        "english": "You study at school.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m5-s14",
+        "spanish": "Él estudia español.",
+        "english": "He studies Spanish.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m5-s15",
+        "spanish": "Ella estudia mucho.",
+        "english": "She studies a lot.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m5-s16",
+        "spanish": "Nosotros estudiamos cada día.",
+        "english": "We study every day.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m5-s17",
+        "spanish": "Yo compro pan.",
+        "english": "I buy bread.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m5-s18",
+        "spanish": "Tú compras café.",
+        "english": "You buy coffee.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m5-s19",
+        "spanish": "Él compra un libro nuevo.",
+        "english": "He buys a new book.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m5-s20",
+        "spanish": "Ella compra una mesa grande.",
+        "english": "She buys a big table.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m5-s21",
+        "spanish": "Nosotros compramos comida.",
+        "english": "We buy food.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m5-s22",
+        "spanish": "Yo busco un café.",
+        "english": "I look for a café.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m5-s23",
+        "spanish": "Tú buscas la escuela.",
+        "english": "You look for the school.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m5-s24",
+        "spanish": "Él busca un trabajo.",
+        "english": "He looks for a job.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m5-s25",
+        "spanish": "Ella busca una casa.",
+        "english": "She looks for a house.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m5-s26",
+        "spanish": "Nosotros buscamos un libro.",
+        "english": "We look for a book.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m5-s27",
+        "spanish": "Yo espero aquí.",
+        "english": "I wait here.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m5-s28",
+        "spanish": "Tú esperas allí.",
+        "english": "You wait there.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m5-s29",
+        "spanish": "Él espera en el café.",
+        "english": "He waits in the café.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m5-s30",
+        "spanish": "Ella espera en casa.",
+        "english": "She waits at home.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m5-s31",
+        "spanish": "Nosotros esperamos en la calle.",
+        "english": "We wait in the street.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m5-s32",
+        "spanish": "Yo escucho música.",
+        "english": "I listen to music.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m5-s33",
+        "spanish": "Tú escuchas español.",
+        "english": "You listen to Spanish.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m5-s34",
+        "spanish": "Él escucha en silencio.",
+        "english": "He listens in silence.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m5-s35",
+        "spanish": "Ella escucha aquí.",
+        "english": "She listens here.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m5-s36",
+        "spanish": "Yo miro el teléfono.",
+        "english": "I look at the phone.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m5-s37",
+        "spanish": "Tú miras la foto.",
+        "english": "You look at the photo.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m5-s38",
+        "spanish": "Él mira el libro.",
+        "english": "He looks at the book.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m5-s39",
+        "spanish": "Ella mira la casa.",
+        "english": "She looks at the house.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m5-s40",
+        "spanish": "Hoy estudio y mañana trabajo.",
+        "english": "Today I study and tomorrow I work.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m5-s41",
+        "spanish": "Yo hablo y tú escuchas.",
+        "english": "I speak and you listen.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m5-s42",
+        "spanish": "Ella compra pan y café.",
+        "english": "She buys bread and coffee.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m5-s43",
+        "spanish": "Nosotros estudiamos en el café.",
+        "english": "We study in the café.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m5-s44",
+        "spanish": "¿Dónde trabajas?",
+        "english": "Where do you work?",
+        "wordMeanings": {}
+      }
+    ]
+  },
+  {
+    "id": "module-6",
+    "title": "Chapter 6",
+    "description": "Practice sentences for Chapter 6.",
+    "level": "Beginner",
+    "sentences": [
+      {
+        "id": "m6-s1",
+        "spanish": "Yo como pan.",
+        "english": "I eat bread.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m6-s2",
+        "spanish": "Tú comes pan.",
+        "english": "You eat bread.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m6-s3",
+        "spanish": "Él come pan.",
+        "english": "He eats bread.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m6-s4",
+        "spanish": "Ella come sopa.",
+        "english": "She eats soup.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m6-s5",
+        "spanish": "Nosotros comemos en casa.",
+        "english": "We eat at home.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m6-s6",
+        "spanish": "Yo bebo agua.",
+        "english": "I drink water.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m6-s7",
+        "spanish": "Tú bebes café.",
+        "english": "You drink coffee.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m6-s8",
+        "spanish": "Él bebe agua.",
+        "english": "He drinks water.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m6-s9",
+        "spanish": "Ella bebe té.",
+        "english": "She drinks tea.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m6-s10",
+        "spanish": "Nosotros bebemos agua.",
+        "english": "We drink water.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m6-s11",
+        "spanish": "Yo vivo aquí.",
+        "english": "I live here.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m6-s12",
+        "spanish": "Tú vives allí.",
+        "english": "You live there.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m6-s13",
+        "spanish": "Él vive en el centro.",
+        "english": "He lives downtown.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m6-s14",
+        "spanish": "Ella vive cerca.",
+        "english": "She lives nearby.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m6-s15",
+        "spanish": "Nosotros vivimos en la ciudad.",
+        "english": "We live in the city.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m6-s16",
+        "spanish": "Yo abro la puerta.",
+        "english": "I open the door.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m6-s17",
+        "spanish": "Tú abres el libro.",
+        "english": "You open the book.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m6-s18",
+        "spanish": "Él abre la puerta.",
+        "english": "He opens the door.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m6-s19",
+        "spanish": "Ella abre la ventana.",
+        "english": "She opens the window.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m6-s20",
+        "spanish": "Yo escribo un mensaje.",
+        "english": "I write a message.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m6-s21",
+        "spanish": "Tú escribes una carta.",
+        "english": "You write a letter.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m6-s22",
+        "spanish": "Él escribe un mensaje.",
+        "english": "He writes a message.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m6-s23",
+        "spanish": "Ella escribe una carta.",
+        "english": "She writes a letter.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m6-s24",
+        "spanish": "Nosotros escribimos mensajes.",
+        "english": "We write messages.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m6-s25",
+        "spanish": "Yo recibo un mensaje.",
+        "english": "I receive a message.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m6-s26",
+        "spanish": "Tú recibes una carta.",
+        "english": "You receive a letter.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m6-s27",
+        "spanish": "Él recibe un libro.",
+        "english": "He receives a book.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m6-s28",
+        "spanish": "Ella recibe una carta.",
+        "english": "She receives a letter.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m6-s29",
+        "spanish": "Nosotros recibimos mensajes.",
+        "english": "We receive messages.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m6-s30",
+        "spanish": "Yo aprendo español.",
+        "english": "I learn Spanish.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m6-s31",
+        "spanish": "Tú aprendes español.",
+        "english": "You learn Spanish.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m6-s32",
+        "spanish": "Él aprende rápido.",
+        "english": "He learns quickly.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m6-s33",
+        "spanish": "Ella aprende despacio.",
+        "english": "She learns slowly.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m6-s34",
+        "spanish": "Yo vendo un libro.",
+        "english": "I sell a book.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m6-s35",
+        "spanish": "Tú vendes el coche.",
+        "english": "You sell the car.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m6-s36",
+        "spanish": "Él vende pan.",
+        "english": "He sells bread.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m6-s37",
+        "spanish": "Ella vende café.",
+        "english": "She sells coffee.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m6-s38",
+        "spanish": "Hoy como y bebo.",
+        "english": "Today I eat and drink.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m6-s39",
+        "spanish": "Vivo en la ciudad y trabajo en el centro.",
+        "english": "I live in the city and work downtown.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m6-s40",
+        "spanish": "Abro el libro y escribo un mensaje.",
+        "english": "I open the book and write a message.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m6-s41",
+        "spanish": "Recibo un mensaje y respondo.",
+        "english": "I receive a message and respond.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m6-s42",
+        "spanish": "Aprendo cada día.",
+        "english": "I learn every day.",
+        "wordMeanings": {}
+      }
+    ]
+  },
+  {
+    "id": "module-7",
+    "title": "Chapter 7",
+    "description": "Practice sentences for Chapter 7.",
+    "level": "Beginner",
+    "sentences": [
+      {
+        "id": "m7-s1",
+        "spanish": "Me llamo Ana.",
+        "english": "My name is Ana.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m7-s2",
+        "spanish": "Te llamas Luis.",
+        "english": "Your name is Luis.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m7-s3",
+        "spanish": "Se llama Marta.",
+        "english": "Her name is Marta.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m7-s4",
+        "spanish": "Se llama Carlos.",
+        "english": "His name is Carlos.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m7-s5",
+        "spanish": "¿Cómo te llamas?",
+        "english": "What is your name?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m7-s6",
+        "spanish": "Me levanto temprano.",
+        "english": "I get up early.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m7-s7",
+        "spanish": "Te levantas temprano.",
+        "english": "You get up early.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m7-s8",
+        "spanish": "Se levanta tarde.",
+        "english": "He/She gets up late.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m7-s9",
+        "spanish": "Nos levantamos temprano.",
+        "english": "We get up early.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m7-s10",
+        "spanish": "Me acuesto tarde.",
+        "english": "I go to bed late.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m7-s11",
+        "spanish": "Te acuestas tarde.",
+        "english": "You go to bed late.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m7-s12",
+        "spanish": "Se acuesta temprano.",
+        "english": "He/She goes to bed early.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m7-s13",
+        "spanish": "Nos acostamos tarde.",
+        "english": "We go to bed late.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m7-s14",
+        "spanish": "Me ducho en casa.",
+        "english": "I shower at home.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m7-s15",
+        "spanish": "Te duchas en casa.",
+        "english": "You shower at home.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m7-s16",
+        "spanish": "Se ducha en casa.",
+        "english": "He/She showers at home.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m7-s17",
+        "spanish": "Nos duchamos en casa.",
+        "english": "We shower at home.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m7-s18",
+        "spanish": "Me lavo las manos.",
+        "english": "I wash my hands.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m7-s19",
+        "spanish": "Te lavas las manos.",
+        "english": "You wash your hands.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m7-s20",
+        "spanish": "Se lava las manos.",
+        "english": "He/She washes his/her hands.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m7-s21",
+        "spanish": "Nos lavamos las manos.",
+        "english": "We wash our hands.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m7-s22",
+        "spanish": "Me visto rápido.",
+        "english": "I get dressed quickly.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m7-s23",
+        "spanish": "Te vistes rápido.",
+        "english": "You get dressed quickly.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m7-s24",
+        "spanish": "Se viste despacio.",
+        "english": "He/She gets dressed slowly.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m7-s25",
+        "spanish": "Nos vestimos rápido.",
+        "english": "We get dressed quickly.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m7-s26",
+        "spanish": "Me siento aquí.",
+        "english": "I sit here.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m7-s27",
+        "spanish": "Te sientas allí.",
+        "english": "You sit there.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m7-s28",
+        "spanish": "Se sienta aquí.",
+        "english": "He/She sits here.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m7-s29",
+        "spanish": "Nos sentamos aquí.",
+        "english": "We sit here.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m7-s30",
+        "spanish": "Me quedo en casa.",
+        "english": "I stay at home.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m7-s31",
+        "spanish": "Te quedas en casa.",
+        "english": "You stay at home.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m7-s32",
+        "spanish": "Se queda en el trabajo.",
+        "english": "He/She stays at work.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m7-s33",
+        "spanish": "Nos quedamos en casa.",
+        "english": "We stay at home.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m7-s34",
+        "spanish": "Por la mañana me levanto y me ducho.",
+        "english": "In the morning I get up and shower.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m7-s35",
+        "spanish": "Por la mañana me lavo las manos.",
+        "english": "In the morning I wash my hands.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m7-s36",
+        "spanish": "Por la mañana me visto y salgo.",
+        "english": "In the morning I get dressed and leave.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m7-s37",
+        "spanish": "Hoy me levanto tarde.",
+        "english": "Today I get up late.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m7-s38",
+        "spanish": "Hoy me acuesto temprano.",
+        "english": "Today I go to bed early.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m7-s39",
+        "spanish": "Me llamo Ana y vivo aquí.",
+        "english": "My name is Ana and I live here.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m7-s40",
+        "spanish": "Te llamas Luis y trabajas en el centro.",
+        "english": "Your name is Luis and you work downtown.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m7-s41",
+        "spanish": "Se llama Marta y estudia español.",
+        "english": "Her name is Marta and she studies Spanish.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m7-s42",
+        "spanish": "Se llama Carlos y compra café.",
+        "english": "His name is Carlos and he buys coffee.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m7-s43",
+        "spanish": "¿Te duchas por la mañana?",
+        "english": "Do you shower in the morning?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m7-s44",
+        "spanish": "Sí, me ducho por la mañana.",
+        "english": "Yes, I shower in the morning.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m7-s45",
+        "spanish": "No, no me ducho por la mañana.",
+        "english": "No, I don't shower in the morning.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m7-s46",
+        "spanish": "Nos levantamos, nos vestimos y salimos.",
+        "english": "We get up, get dressed, and leave.",
+        "wordMeanings": {}
+      }
+    ]
+  },
+  {
+    "id": "module-8",
+    "title": "Chapter 8",
+    "description": "Practice sentences for Chapter 8.",
+    "level": "Beginner",
+    "sentences": [
+      {
+        "id": "m8-s1",
+        "spanish": "Me gusta el café.",
+        "english": "I like coffee.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m8-s2",
+        "spanish": "Te gusta el café.",
+        "english": "You like coffee.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m8-s3",
+        "spanish": "Le gusta el café.",
+        "english": "He/She likes coffee.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m8-s4",
+        "spanish": "Nos gusta el café.",
+        "english": "We like coffee.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m8-s5",
+        "spanish": "Les gusta el café.",
+        "english": "They/You (plural) like coffee.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m8-s6",
+        "spanish": "¿Te gusta el té?",
+        "english": "Do you like tea?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m8-s7",
+        "spanish": "Sí, me gusta el té.",
+        "english": "Yes, I like tea.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m8-s8",
+        "spanish": "No, no me gusta el té.",
+        "english": "No, I don't like tea.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m8-s9",
+        "spanish": "Me gusta el pan.",
+        "english": "I like bread.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m8-s10",
+        "spanish": "Me gusta la sopa.",
+        "english": "I like soup.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m8-s11",
+        "spanish": "Me gustan los libros.",
+        "english": "I like books.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m8-s12",
+        "spanish": "Me gustan las fotos.",
+        "english": "I like photos.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m8-s13",
+        "spanish": "¿Te gustan los libros?",
+        "english": "Do you like books?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m8-s14",
+        "spanish": "Sí, me gustan los libros.",
+        "english": "Yes, I like books.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m8-s15",
+        "spanish": "No, no me gustan los libros.",
+        "english": "No, I don't like books.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m8-s16",
+        "spanish": "A Ana le gusta la música.",
+        "english": "Ana likes music.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m8-s17",
+        "spanish": "A Luis le gusta el fútbol.",
+        "english": "Luis likes soccer.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m8-s18",
+        "spanish": "A Marta le gusta estudiar.",
+        "english": "Marta likes studying.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m8-s19",
+        "spanish": "A Carlos le gusta trabajar.",
+        "english": "Carlos likes working.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m8-s20",
+        "spanish": "Nos gusta aprender español.",
+        "english": "We like learning Spanish.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m8-s21",
+        "spanish": "Me gusta escuchar música.",
+        "english": "I like listening to music.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m8-s22",
+        "spanish": "Me gusta hablar español.",
+        "english": "I like speaking Spanish.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m8-s23",
+        "spanish": "¿Qué te gusta?",
+        "english": "What do you like?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m8-s24",
+        "spanish": "Me gusta el café y el té.",
+        "english": "I like coffee and tea.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m8-s25",
+        "spanish": "Me gusta el café, pero no me gusta el té.",
+        "english": "I like coffee, but I don't like tea.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m8-s26",
+        "spanish": "Me gustan los libros, pero no me gustan las fotos.",
+        "english": "I like books, but I don't like photos.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m8-s27",
+        "spanish": "¿A quién le gusta el café?",
+        "english": "Who likes coffee?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m8-s28",
+        "spanish": "A mí me gusta el café.",
+        "english": "I like coffee.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m8-s29",
+        "spanish": "A ti te gusta el café.",
+        "english": "You like coffee.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m8-s30",
+        "spanish": "Me gusta este libro.",
+        "english": "I like this book.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m8-s31",
+        "spanish": "No me gusta ese libro.",
+        "english": "I don't like that book.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m8-s32",
+        "spanish": "Me gusta vivir aquí.",
+        "english": "I like living here.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m8-s33",
+        "spanish": "Me gusta estar en casa.",
+        "english": "I like being at home.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m8-s34",
+        "spanish": "Me gusta estar en el café.",
+        "english": "I like being in the café.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m8-s35",
+        "spanish": "¿Te gusta trabajar en el centro?",
+        "english": "Do you like working downtown?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m8-s36",
+        "spanish": "Sí, me gusta trabajar en el centro.",
+        "english": "Yes, I like working downtown.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m8-s37",
+        "spanish": "No, no me gusta trabajar en el centro.",
+        "english": "No, I don't like working downtown.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m8-s38",
+        "spanish": "Me gustan los cafés pequeños.",
+        "english": "I like small cafés.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m8-s39",
+        "spanish": "Nos gustan las casas grandes.",
+        "english": "We like big houses.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m8-s40",
+        "spanish": "A Ana le gustan los libros.",
+        "english": "Ana likes books.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m8-s41",
+        "spanish": "A Luis le gustan las fotos.",
+        "english": "Luis likes photos.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m8-s42",
+        "spanish": "A Marta le gusta el café.",
+        "english": "Marta likes coffee.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m8-s43",
+        "spanish": "A Carlos le gusta la sopa.",
+        "english": "Carlos likes soup.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m8-s44",
+        "spanish": "Me gusta estudiar por la mañana.",
+        "english": "I like studying in the morning.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m8-s45",
+        "spanish": "Me gusta escuchar y repetir.",
+        "english": "I like listening and repeating.",
+        "wordMeanings": {}
+      }
+    ]
+  },
+  {
+    "id": "module-9",
+    "title": "Chapter 9",
+    "description": "Practice sentences for Chapter 9.",
+    "level": "Beginner",
+    "sentences": [
+      {
+        "id": "m9-s1",
+        "spanish": "Voy a estudiar hoy.",
+        "english": "I am going to study today.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m9-s2",
+        "spanish": "Vas a trabajar hoy.",
+        "english": "You are going to work today.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m9-s3",
+        "spanish": "Va a comprar pan.",
+        "english": "He/She is going to buy bread.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m9-s4",
+        "spanish": "Vamos a comer en casa.",
+        "english": "We are going to eat at home.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m9-s5",
+        "spanish": "Van a beber café.",
+        "english": "They are going to drink coffee.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m9-s6",
+        "spanish": "¿Vas a estudiar mañana?",
+        "english": "Are you going to study tomorrow?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m9-s7",
+        "spanish": "Sí, voy a estudiar mañana.",
+        "english": "Yes, I am going to study tomorrow.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m9-s8",
+        "spanish": "No, no voy a estudiar mañana.",
+        "english": "No, I am not going to study tomorrow.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m9-s9",
+        "spanish": "Voy a ir al café.",
+        "english": "I am going to go to the café.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m9-s10",
+        "spanish": "Vas a ir a la escuela.",
+        "english": "You are going to go to school.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m9-s11",
+        "spanish": "Va a ir al trabajo.",
+        "english": "He/She is going to go to work.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m9-s12",
+        "spanish": "Vamos a ir al centro.",
+        "english": "We are going to go downtown.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m9-s13",
+        "spanish": "¿Dónde vas a estar hoy?",
+        "english": "Where are you going to be today?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m9-s14",
+        "spanish": "Hoy voy a estar en casa.",
+        "english": "Today I'm going to be at home.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m9-s15",
+        "spanish": "Hoy voy a estar en el trabajo.",
+        "english": "Today I'm going to be at work.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m9-s16",
+        "spanish": "Voy a buscar un libro.",
+        "english": "I am going to look for a book.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m9-s17",
+        "spanish": "Vas a esperar aquí.",
+        "english": "You are going to wait here.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m9-s18",
+        "spanish": "Va a escuchar música.",
+        "english": "He/She is going to listen to music.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m9-s19",
+        "spanish": "Vamos a hablar español.",
+        "english": "We are going to speak Spanish.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m9-s20",
+        "spanish": "Voy a abrir la puerta.",
+        "english": "I am going to open the door.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m9-s21",
+        "spanish": "Vas a escribir un mensaje.",
+        "english": "You are going to write a message.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m9-s22",
+        "spanish": "Va a recibir una carta.",
+        "english": "He/She is going to receive a letter.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m9-s23",
+        "spanish": "¿Vas a comprar el coche?",
+        "english": "Are you going to buy the car?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m9-s24",
+        "spanish": "Sí, voy a comprar el coche.",
+        "english": "Yes, I'm going to buy the car.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m9-s25",
+        "spanish": "No, no voy a comprar el coche.",
+        "english": "No, I'm not going to buy the car.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m9-s26",
+        "spanish": "Voy a estudiar en el café.",
+        "english": "I am going to study in the café.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m9-s27",
+        "spanish": "Vamos a estudiar y después vamos a comer.",
+        "english": "We are going to study and then we are going to eat.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m9-s28",
+        "spanish": "Voy a llamar a Ana.",
+        "english": "I am going to call Ana.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m9-s29",
+        "spanish": "Vas a llamar a Luis.",
+        "english": "You are going to call Luis.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m9-s30",
+        "spanish": "Va a llamar a Marta.",
+        "english": "He/She is going to call Marta.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m9-s31",
+        "spanish": "¿Vas a venir?",
+        "english": "Are you going to come?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m9-s32",
+        "spanish": "Sí, voy a venir.",
+        "english": "Yes, I am going to come.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m9-s33",
+        "spanish": "No, no voy a venir.",
+        "english": "No, I am not going to come.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m9-s34",
+        "spanish": "Voy a quedarme en casa.",
+        "english": "I am going to stay at home.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m9-s35",
+        "spanish": "No voy a quedarme en casa.",
+        "english": "I am not going to stay at home.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m9-s36",
+        "spanish": "¿Te gusta el café? Sí, me gusta.",
+        "english": "Do you like coffee? Yes, I do.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m9-s37",
+        "spanish": "Voy a trabajar hoy, pero mañana estudio.",
+        "english": "I'm going to work today, but tomorrow I study.",
+        "wordMeanings": {}
+      }
+    ]
+  },
+  {
+    "id": "module-10",
+    "title": "Chapter 10",
+    "description": "Practice sentences for Chapter 10.",
+    "level": "Beginner",
+    "sentences": [
+      {
+        "id": "m10-s1",
+        "spanish": "Ayer hablé español.",
+        "english": "Yesterday I spoke Spanish.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m10-s2",
+        "spanish": "Ayer trabajé en casa.",
+        "english": "Yesterday I worked at home.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m10-s3",
+        "spanish": "Ayer estudié en el café.",
+        "english": "Yesterday I studied in the café.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m10-s4",
+        "spanish": "Ayer compré pan.",
+        "english": "Yesterday I bought bread.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m10-s5",
+        "spanish": "Ayer compré café.",
+        "english": "Yesterday I bought coffee.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m10-s6",
+        "spanish": "Ayer busqué un libro.",
+        "english": "Yesterday I looked for a book.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m10-s7",
+        "spanish": "Ayer esperé en la calle.",
+        "english": "Yesterday I waited in the street.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m10-s8",
+        "spanish": "Ayer escuché música.",
+        "english": "Yesterday I listened to music.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m10-s9",
+        "spanish": "Ayer miré una foto.",
+        "english": "Yesterday I looked at a photo.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m10-s10",
+        "spanish": "Anoche comí sopa.",
+        "english": "Last night I ate soup.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m10-s11",
+        "spanish": "Anoche bebí té.",
+        "english": "Last night I drank tea.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m10-s12",
+        "spanish": "Anoche comimos en casa.",
+        "english": "Last night we ate at home.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m10-s13",
+        "spanish": "Ayer viví en el centro.",
+        "english": "Yesterday I lived downtown.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m10-s14",
+        "spanish": "Ayer abrí la puerta.",
+        "english": "Yesterday I opened the door.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m10-s15",
+        "spanish": "Ayer escribí un mensaje.",
+        "english": "Yesterday I wrote a message.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m10-s16",
+        "spanish": "Ayer recibí una carta.",
+        "english": "Yesterday I received a letter.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m10-s17",
+        "spanish": "Ayer fui al café.",
+        "english": "Yesterday I went to the café.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m10-s18",
+        "spanish": "Ayer fuiste a la escuela.",
+        "english": "Yesterday you went to school.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m10-s19",
+        "spanish": "Ayer fue al trabajo.",
+        "english": "Yesterday he/she went to work.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m10-s20",
+        "spanish": "Ayer fuimos al centro.",
+        "english": "Yesterday we went downtown.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m10-s21",
+        "spanish": "¿Fuiste al café ayer?",
+        "english": "Did you go to the café yesterday?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m10-s22",
+        "spanish": "Sí, fui al café ayer.",
+        "english": "Yes, I went to the café yesterday.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m10-s23",
+        "spanish": "No, no fui al café ayer.",
+        "english": "No, I didn't go to the café yesterday.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m10-s24",
+        "spanish": "¿Compraste pan ayer?",
+        "english": "Did you buy bread yesterday?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m10-s25",
+        "spanish": "Sí, compré pan ayer.",
+        "english": "Yes, I bought bread yesterday.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m10-s26",
+        "spanish": "No, no compré pan ayer.",
+        "english": "No, I didn't buy bread yesterday.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m10-s27",
+        "spanish": "Ayer tuve tiempo.",
+        "english": "Yesterday I had time.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m10-s28",
+        "spanish": "Ayer tuviste un problema.",
+        "english": "Yesterday you had a problem.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m10-s29",
+        "spanish": "Ayer tuvo hambre.",
+        "english": "Yesterday he/she was hungry.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m10-s30",
+        "spanish": "Ayer tuvimos sed.",
+        "english": "Yesterday we were thirsty.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m10-s31",
+        "spanish": "Ayer me levanté temprano.",
+        "english": "Yesterday I got up early.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m10-s32",
+        "spanish": "Ayer me acosté tarde.",
+        "english": "Yesterday I went to bed late.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m10-s33",
+        "spanish": "Ayer me duché en casa.",
+        "english": "Yesterday I showered at home.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m10-s34",
+        "spanish": "Ayer no trabajé.",
+        "english": "Yesterday I didn't work.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m10-s35",
+        "spanish": "Ayer no estudié.",
+        "english": "Yesterday I didn't study.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m10-s36",
+        "spanish": "Ayer no compré el coche.",
+        "english": "Yesterday I didn't buy the car.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m10-s37",
+        "spanish": "Ayer hablamos y después comimos.",
+        "english": "Yesterday we talked and then we ate.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m10-s38",
+        "spanish": "Ayer busqué un café y lo encontré.",
+        "english": "Yesterday I looked for a café and found it.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m10-s39",
+        "spanish": "Ayer esperé y después fui a casa.",
+        "english": "Yesterday I waited and then I went home.",
+        "wordMeanings": {}
+      }
+    ]
+  },
+  {
+    "id": "module-11",
+    "title": "Chapter 11",
+    "description": "Practice sentences for Chapter 11.",
+    "level": "Beginner",
+    "sentences": [
+      {
+        "id": "m11-s1",
+        "spanish": "Antes estudiaba en casa.",
+        "english": "Before, I used to study at home.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m11-s2",
+        "spanish": "Antes trabajaba en el centro.",
+        "english": "Before, I used to work downtown.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m11-s3",
+        "spanish": "Antes vivía aquí.",
+        "english": "Before, I used to live here.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m11-s4",
+        "spanish": "Cuando era estudiante, estudiaba mucho.",
+        "english": "When I was a student, I studied a lot.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m11-s5",
+        "spanish": "Cuando era joven, trabajaba poco.",
+        "english": "When I was young, I worked little.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m11-s6",
+        "spanish": "Siempre comía pan por la mañana.",
+        "english": "I always ate bread in the morning.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m11-s7",
+        "spanish": "Siempre bebía café.",
+        "english": "I always drank coffee.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m11-s8",
+        "spanish": "A menudo escuchaba música.",
+        "english": "I often listened to music.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m11-s9",
+        "spanish": "A veces hablaba español.",
+        "english": "Sometimes I spoke Spanish.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m11-s10",
+        "spanish": "Todos los días me levantaba temprano.",
+        "english": "Every day I got up early.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m11-s11",
+        "spanish": "Todas las noches me acostaba tarde.",
+        "english": "Every night I went to bed late.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m11-s12",
+        "spanish": "Por la mañana me duchaba.",
+        "english": "In the morning I used to shower.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m11-s13",
+        "spanish": "Yo tenía tiempo.",
+        "english": "I used to have time.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m11-s14",
+        "spanish": "Yo tenía hambre.",
+        "english": "I used to be hungry.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m11-s15",
+        "spanish": "Yo tenía sed.",
+        "english": "I used to be thirsty.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m11-s16",
+        "spanish": "Ayer estaba en casa.",
+        "english": "Yesterday I was at home.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m11-s17",
+        "spanish": "Ayer estabas en el trabajo.",
+        "english": "Yesterday you were at work.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m11-s18",
+        "spanish": "Ayer Ana estaba en el café.",
+        "english": "Yesterday Ana was in the café.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m11-s19",
+        "spanish": "Mientras yo estudiaba, él escuchaba música.",
+        "english": "While I was studying, he was listening to music.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m11-s20",
+        "spanish": "Mientras tú trabajabas, yo esperaba.",
+        "english": "While you were working, I was waiting.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m11-s21",
+        "spanish": "Mientras comíamos, hablábamos.",
+        "english": "While we were eating, we were talking.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m11-s22",
+        "spanish": "Ayer estudiaba cuando me llamaste.",
+        "english": "Yesterday I was studying when you called me.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m11-s23",
+        "spanish": "Ayer escuchaba música cuando abriste la puerta.",
+        "english": "Yesterday I was listening to music when you opened the door.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m11-s24",
+        "spanish": "Antes me sentaba aquí.",
+        "english": "Before, I used to sit here.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m11-s25",
+        "spanish": "Antes me quedaba en casa.",
+        "english": "Before, I used to stay at home.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m11-s26",
+        "spanish": "¿Trabajabas aquí antes?",
+        "english": "Did you use to work here before?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m11-s27",
+        "spanish": "Sí, trabajaba aquí antes.",
+        "english": "Yes, I used to work here before.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m11-s28",
+        "spanish": "No, no trabajaba aquí antes.",
+        "english": "No, I didn't use to work here before.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m11-s29",
+        "spanish": "Ayer trabajé.",
+        "english": "Yesterday I worked.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m11-s30",
+        "spanish": "Ayer trabajaba.",
+        "english": "Yesterday I was working.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m11-s31",
+        "spanish": "Ayer comí.",
+        "english": "Yesterday I ate.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m11-s32",
+        "spanish": "Ayer comía.",
+        "english": "Yesterday I was eating.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m11-s33",
+        "spanish": "Antes hablaba poco, ahora hablo más.",
+        "english": "Before I spoke little; now I speak more.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m11-s34",
+        "spanish": "Antes vivía lejos, ahora vivo cerca.",
+        "english": "Before I lived far; now I live near.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m11-s35",
+        "spanish": "Ayer no trabajaba.",
+        "english": "Yesterday I wasn't working.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m11-s36",
+        "spanish": "Ayer no estudiaba.",
+        "english": "Yesterday I wasn't studying.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m11-s37",
+        "spanish": "Cuando era estudiante, no trabajaba.",
+        "english": "When I was a student, I didn't work.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m11-s38",
+        "spanish": "Cuando era estudiante, me gustaba el café.",
+        "english": "When I was a student, I liked coffee.",
+        "wordMeanings": {}
+      }
+    ]
+  },
+  {
+    "id": "module-12",
+    "title": "Chapter 12",
+    "description": "Practice sentences for Chapter 12.",
+    "level": "Beginner",
+    "sentences": [
+      {
+        "id": "m12-s1",
+        "spanish": "He comido pan.",
+        "english": "I have eaten bread.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m12-s2",
+        "spanish": "Has comido sopa.",
+        "english": "You have eaten soup.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m12-s3",
+        "spanish": "Ha bebido agua.",
+        "english": "He/She has drunk water.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m12-s4",
+        "spanish": "Hemos bebido café.",
+        "english": "We have drunk coffee.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m12-s5",
+        "spanish": "Han comido en casa.",
+        "english": "They have eaten at home.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m12-s6",
+        "spanish": "¿Has estudiado hoy?",
+        "english": "Have you studied today?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m12-s7",
+        "spanish": "Sí, he estudiado hoy.",
+        "english": "Yes, I have studied today.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m12-s8",
+        "spanish": "No, no he estudiado hoy.",
+        "english": "No, I haven't studied today.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m12-s9",
+        "spanish": "He trabajado mucho.",
+        "english": "I have worked a lot.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m12-s10",
+        "spanish": "Has trabajado en casa.",
+        "english": "You have worked at home.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m12-s11",
+        "spanish": "Ha trabajado en el centro.",
+        "english": "He/She has worked downtown.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m12-s12",
+        "spanish": "Hemos trabajado hoy.",
+        "english": "We have worked today.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m12-s13",
+        "spanish": "He hablado con Ana.",
+        "english": "I have spoken with Ana.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m12-s14",
+        "spanish": "Has hablado con Luis.",
+        "english": "You have spoken with Luis.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m12-s15",
+        "spanish": "Ha hablado con Marta.",
+        "english": "He/She has spoken with Marta.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m12-s16",
+        "spanish": "Hemos hablado en español.",
+        "english": "We have spoken in Spanish.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m12-s17",
+        "spanish": "He comprado pan.",
+        "english": "I have bought bread.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m12-s18",
+        "spanish": "Has comprado café.",
+        "english": "You have bought coffee.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m12-s19",
+        "spanish": "Ha comprado un libro.",
+        "english": "He/She has bought a book.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m12-s20",
+        "spanish": "Hemos comprado comida.",
+        "english": "We have bought food.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m12-s21",
+        "spanish": "He buscado un trabajo.",
+        "english": "I have looked for a job.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m12-s22",
+        "spanish": "Has buscado un café.",
+        "english": "You have looked for a café.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m12-s23",
+        "spanish": "Ha buscado una casa.",
+        "english": "He/She has looked for a house.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m12-s24",
+        "spanish": "He abierto la puerta.",
+        "english": "I have opened the door.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m12-s25",
+        "spanish": "Has abierto el libro.",
+        "english": "You have opened the book.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m12-s26",
+        "spanish": "Ha abierto la ventana.",
+        "english": "He/She has opened the window.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m12-s27",
+        "spanish": "He escrito un mensaje.",
+        "english": "I have written a message.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m12-s28",
+        "spanish": "Has escrito una carta.",
+        "english": "You have written a letter.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m12-s29",
+        "spanish": "Ha escrito un mensaje.",
+        "english": "He/She has written a message.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m12-s30",
+        "spanish": "He recibido un mensaje.",
+        "english": "I have received a message.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m12-s31",
+        "spanish": "Has recibido una carta.",
+        "english": "You have received a letter.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m12-s32",
+        "spanish": "Ha recibido un libro.",
+        "english": "He/She has received a book.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m12-s33",
+        "spanish": "Hoy he tenido tiempo.",
+        "english": "Today I have had time.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m12-s34",
+        "spanish": "Hoy he tenido hambre.",
+        "english": "Today I have been hungry.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m12-s35",
+        "spanish": "Hoy he tenido sed.",
+        "english": "Today I have been thirsty.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m12-s36",
+        "spanish": "Esta semana he estudiado mucho.",
+        "english": "This week I have studied a lot.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m12-s37",
+        "spanish": "Esta semana he trabajado mucho.",
+        "english": "This week I have worked a lot.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m12-s38",
+        "spanish": "¿Has ido al café hoy?",
+        "english": "Have you gone to the café today?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m12-s39",
+        "spanish": "Sí, he ido al café hoy.",
+        "english": "Yes, I have gone to the café today.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m12-s40",
+        "spanish": "No, no he ido al café hoy.",
+        "english": "No, I haven't gone to the café today.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m12-s41",
+        "spanish": "He vivido aquí.",
+        "english": "I have lived here.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m12-s42",
+        "spanish": "Has vivido allí.",
+        "english": "You have lived there.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m12-s43",
+        "spanish": "Ha vivido en el centro.",
+        "english": "He/She has lived downtown.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m12-s44",
+        "spanish": "He aprendido español.",
+        "english": "I have learned Spanish.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m12-s45",
+        "spanish": "Has aprendido mucho.",
+        "english": "You have learned a lot.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m12-s46",
+        "spanish": "Hemos aprendido cada día.",
+        "english": "We have learned every day.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m12-s47",
+        "spanish": "Ayer estudié; hoy he estudiado.",
+        "english": "Yesterday I studied; today I have studied.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m12-s48",
+        "spanish": "Antes estudiaba; hoy he estudiado.",
+        "english": "Before I used to study; today I have studied.",
+        "wordMeanings": {}
+      }
+    ]
+  },
+  {
+    "id": "module-13",
+    "title": "Chapter 13",
+    "description": "Practice sentences for Chapter 13.",
+    "level": "Beginner",
+    "sentences": [
+      {
+        "id": "m13-s1",
+        "spanish": "Veo el libro.",
+        "english": "I see the book.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m13-s2",
+        "spanish": "Lo veo.",
+        "english": "I see it.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m13-s3",
+        "spanish": "Veo la casa.",
+        "english": "I see the house.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m13-s4",
+        "spanish": "La veo.",
+        "english": "I see it.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m13-s5",
+        "spanish": "Compro el pan.",
+        "english": "I buy the bread.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m13-s6",
+        "spanish": "Lo compro.",
+        "english": "I buy it.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m13-s7",
+        "spanish": "Compro la sopa.",
+        "english": "I buy the soup.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m13-s8",
+        "spanish": "La compro.",
+        "english": "I buy it.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m13-s9",
+        "spanish": "Tienes el libro.",
+        "english": "You have the book.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m13-s10",
+        "spanish": "Lo tienes.",
+        "english": "You have it.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m13-s11",
+        "spanish": "Tienes la carta.",
+        "english": "You have the letter.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m13-s12",
+        "spanish": "La tienes.",
+        "english": "You have it.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m13-s13",
+        "spanish": "Busco los libros.",
+        "english": "I look for the books.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m13-s14",
+        "spanish": "Los busco.",
+        "english": "I look for them.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m13-s15",
+        "spanish": "Busco las llaves.",
+        "english": "I look for the keys.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m13-s16",
+        "spanish": "Las busco.",
+        "english": "I look for them.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m13-s17",
+        "spanish": "¿Ves el café?",
+        "english": "Do you see the coffee?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m13-s18",
+        "spanish": "Sí, lo veo.",
+        "english": "Yes, I see it.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m13-s19",
+        "spanish": "¿Ves la mesa?",
+        "english": "Do you see the table?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m13-s20",
+        "spanish": "Sí, la veo.",
+        "english": "Yes, I see it.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m13-s21",
+        "spanish": "¿Compraste el coche?",
+        "english": "Did you buy the car?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m13-s22",
+        "spanish": "Sí, lo compré.",
+        "english": "Yes, I bought it.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m13-s23",
+        "spanish": "¿Compraste la casa?",
+        "english": "Did you buy the house?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m13-s24",
+        "spanish": "No, no la compré.",
+        "english": "No, I didn’t buy it.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m13-s25",
+        "spanish": "Ayer abrí el libro.",
+        "english": "Yesterday I opened the book.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m13-s26",
+        "spanish": "Ayer lo abrí.",
+        "english": "Yesterday I opened it.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m13-s27",
+        "spanish": "Ayer abrí la puerta.",
+        "english": "Yesterday I opened the door.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m13-s28",
+        "spanish": "Ayer la abrí.",
+        "english": "Yesterday I opened it.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m13-s29",
+        "spanish": "Estoy leyendo el libro.",
+        "english": "I’m reading the book.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m13-s30",
+        "spanish": "Lo estoy leyendo.",
+        "english": "I’m reading it.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m13-s31",
+        "spanish": "Estoy escribiendo la carta.",
+        "english": "I’m writing the letter.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m13-s32",
+        "spanish": "La estoy escribiendo.",
+        "english": "I’m writing it.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m13-s33",
+        "spanish": "¿Dónde está el libro? No lo veo.",
+        "english": "Where is the book? I don’t see it.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m13-s34",
+        "spanish": "¿Dónde está la llave? No la encuentro.",
+        "english": "Where is the key? I can’t find it.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m13-s35",
+        "spanish": "Lo quiero.",
+        "english": "I want it.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m13-s36",
+        "spanish": "La quiero.",
+        "english": "I want it.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m13-s37",
+        "spanish": "Los quiero.",
+        "english": "I want them.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m13-s38",
+        "spanish": "Las quiero.",
+        "english": "I want them.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m13-s39",
+        "spanish": "¿Lo tienes aquí?",
+        "english": "Do you have it here?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m13-s40",
+        "spanish": "Sí, lo tengo aquí.",
+        "english": "Yes, I have it here.",
+        "wordMeanings": {}
+      }
+    ]
+  },
+  {
+    "id": "module-14",
+    "title": "Chapter 14",
+    "description": "Practice sentences for Chapter 14.",
+    "level": "Beginner",
+    "sentences": [
+      {
+        "id": "m14-s1",
+        "spanish": "Doy el libro a Ana.",
+        "english": "I give the book to Ana.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m14-s2",
+        "spanish": "Le doy el libro.",
+        "english": "I give her the book.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m14-s3",
+        "spanish": "Doy la carta a Luis.",
+        "english": "I give the letter to Luis.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m14-s4",
+        "spanish": "Le doy la carta.",
+        "english": "I give him the letter.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m14-s5",
+        "spanish": "Escribo a Marta.",
+        "english": "I write to Marta.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m14-s6",
+        "spanish": "Le escribo.",
+        "english": "I write to her.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m14-s7",
+        "spanish": "Llamo a Carlos.",
+        "english": "I call Carlos.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m14-s8",
+        "spanish": "Le llamo.",
+        "english": "I call him.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m14-s9",
+        "spanish": "¿Le das dinero a tu hermano?",
+        "english": "Do you give money to your brother?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m14-s10",
+        "spanish": "Sí, le doy dinero.",
+        "english": "Yes, I give him money.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m14-s11",
+        "spanish": "¿Le das tiempo a tu amiga?",
+        "english": "Do you give time to your friend?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m14-s12",
+        "spanish": "No, no le doy tiempo.",
+        "english": "No, I don’t give her time.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m14-s13",
+        "spanish": "Damos el pan a ellos.",
+        "english": "We give the bread to them.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m14-s14",
+        "spanish": "Les damos el pan.",
+        "english": "We give them the bread.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m14-s15",
+        "spanish": "Damos la sopa a ustedes.",
+        "english": "We give the soup to you (pl.).",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m14-s16",
+        "spanish": "Les damos la sopa.",
+        "english": "We give you (pl.) the soup.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m14-s17",
+        "spanish": "Ayer le escribí a Ana.",
+        "english": "Yesterday I wrote to Ana.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m14-s18",
+        "spanish": "Ayer le llamé a Luis.",
+        "english": "Yesterday I called Luis.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m14-s19",
+        "spanish": "Hoy le he escrito a Marta.",
+        "english": "Today I’ve written to Marta.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m14-s20",
+        "spanish": "Hoy le he llamado a Carlos.",
+        "english": "Today I’ve called Carlos.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m14-s21",
+        "spanish": "Le digo la verdad.",
+        "english": "I tell him/her the truth.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m14-s22",
+        "spanish": "Les digo la verdad.",
+        "english": "I tell them the truth.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m14-s23",
+        "spanish": "¿Qué le dices?",
+        "english": "What do you tell him/her?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m14-s24",
+        "spanish": "Le digo: 'Hola'.",
+        "english": "I tell him/her: 'Hi'.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m14-s25",
+        "spanish": "Le gusta el café a Ana.",
+        "english": "Ana likes coffee.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m14-s26",
+        "spanish": "A Ana le gusta el café.",
+        "english": "Ana likes coffee.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m14-s27",
+        "spanish": "Le doy el libro ahora.",
+        "english": "I give him/her the book now.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m14-s28",
+        "spanish": "No le doy el libro ahora.",
+        "english": "I don’t give him/her the book now.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m14-s29",
+        "spanish": "¿Le hablas a tu amigo?",
+        "english": "Do you talk to your friend?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m14-s30",
+        "spanish": "Sí, le hablo.",
+        "english": "Yes, I talk to him/her.",
+        "wordMeanings": {}
+      }
+    ]
+  },
+  {
+    "id": "module-15",
+    "title": "Chapter 15",
+    "description": "Practice sentences for Chapter 15.",
+    "level": "Beginner",
+    "sentences": [
+      {
+        "id": "m15-s1",
+        "spanish": "Le doy el libro a Ana.",
+        "english": "I give Ana the book.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m15-s2",
+        "spanish": "Se lo doy.",
+        "english": "I give it to her.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m15-s3",
+        "spanish": "Le doy la carta a Luis.",
+        "english": "I give Luis the letter.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m15-s4",
+        "spanish": "Se la doy.",
+        "english": "I give it to him.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m15-s5",
+        "spanish": "Les doy los libros a ellos.",
+        "english": "I give them the books.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m15-s6",
+        "spanish": "Se los doy.",
+        "english": "I give them to them.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m15-s7",
+        "spanish": "Les doy las llaves a ustedes.",
+        "english": "I give you (pl.) the keys.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m15-s8",
+        "spanish": "Se las doy.",
+        "english": "I give them to you (pl.).",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m15-s9",
+        "spanish": "¿Se lo das ahora?",
+        "english": "Do you give it to him/her now?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m15-s10",
+        "spanish": "Sí, se lo doy ahora.",
+        "english": "Yes, I give it now.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m15-s11",
+        "spanish": "No, no se lo doy ahora.",
+        "english": "No, I don’t give it now.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m15-s12",
+        "spanish": "¿Se la das hoy?",
+        "english": "Do you give it to him/her today?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m15-s13",
+        "spanish": "Sí, se la doy hoy.",
+        "english": "Yes, I give it today.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m15-s14",
+        "spanish": "Ayer se lo di.",
+        "english": "Yesterday I gave it to him/her.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m15-s15",
+        "spanish": "Ayer se la di.",
+        "english": "Yesterday I gave it to him/her.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m15-s16",
+        "spanish": "Hoy se lo he dado.",
+        "english": "Today I’ve given it to him/her.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m15-s17",
+        "spanish": "Hoy se la he dado.",
+        "english": "Today I’ve given it to him/her.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m15-s18",
+        "spanish": "Se lo quiero dar.",
+        "english": "I want to give it to him/her.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m15-s19",
+        "spanish": "Quiero dárselo.",
+        "english": "I want to give it to him/her.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m15-s20",
+        "spanish": "Se la voy a dar.",
+        "english": "I’m going to give it to him/her.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m15-s21",
+        "spanish": "Voy a dársela.",
+        "english": "I’m going to give it to him/her.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m15-s22",
+        "spanish": "Se los estamos dando.",
+        "english": "We’re giving them to them.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m15-s23",
+        "spanish": "Estamos dándoselos.",
+        "english": "We’re giving them to them.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m15-s24",
+        "spanish": "No se lo digas.",
+        "english": "Don’t tell it to him/her.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m15-s25",
+        "spanish": "Díselo.",
+        "english": "Tell it to him/her.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m15-s26",
+        "spanish": "Se lo explico.",
+        "english": "I explain it to him/her.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m15-s27",
+        "spanish": "Se la explico.",
+        "english": "I explain it to him/her.",
+        "wordMeanings": {}
+      }
+    ]
+  },
+  {
+    "id": "module-16",
+    "title": "Chapter 16",
+    "description": "Practice sentences for Chapter 16.",
+    "level": "Beginner",
+    "sentences": [
+      {
+        "id": "m16-s1",
+        "spanish": "Habla.",
+        "english": "Speak.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m16-s2",
+        "spanish": "Come.",
+        "english": "Eat.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m16-s3",
+        "spanish": "Vive aquí.",
+        "english": "Live here.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m16-s4",
+        "spanish": "Espera aquí.",
+        "english": "Wait here.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m16-s5",
+        "spanish": "Hable, por favor.",
+        "english": "Speak, please. (formal)",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m16-s6",
+        "spanish": "Coma, por favor.",
+        "english": "Eat, please. (formal)",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m16-s7",
+        "spanish": "Hablad.",
+        "english": "Speak. (you plural, Spain)",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m16-s8",
+        "spanish": "Hablen, por favor.",
+        "english": "Speak, please. (you plural)",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m16-s9",
+        "spanish": "Vamos.",
+        "english": "Let’s go.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m16-s10",
+        "spanish": "Vamos a casa.",
+        "english": "Let’s go home.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m16-s11",
+        "spanish": "Vamos a comer.",
+        "english": "Let’s eat.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m16-s12",
+        "spanish": "Abre la puerta.",
+        "english": "Open the door.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m16-s13",
+        "spanish": "Abra la puerta.",
+        "english": "Open the door. (formal)",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m16-s14",
+        "spanish": "Abrid la puerta.",
+        "english": "Open the door. (you plural, Spain)",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m16-s15",
+        "spanish": "Abran la puerta.",
+        "english": "Open the door. (you plural)",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m16-s16",
+        "spanish": "Mira esto.",
+        "english": "Look at this.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m16-s17",
+        "spanish": "Mire esto.",
+        "english": "Look at this. (formal)",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m16-s18",
+        "spanish": "Escucha.",
+        "english": "Listen.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m16-s19",
+        "spanish": "Escuche.",
+        "english": "Listen. (formal)",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m16-s20",
+        "spanish": "Dime.",
+        "english": "Tell me.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m16-s21",
+        "spanish": "Dígame.",
+        "english": "Tell me. (formal)",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m16-s22",
+        "spanish": "Dime la verdad.",
+        "english": "Tell me the truth.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m16-s23",
+        "spanish": "Dáselo.",
+        "english": "Give it to him/her.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m16-s24",
+        "spanish": "Dásela.",
+        "english": "Give it to him/her.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m16-s25",
+        "spanish": "Dámelo.",
+        "english": "Give it to me.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m16-s26",
+        "spanish": "Dámela.",
+        "english": "Give it to me.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m16-s27",
+        "spanish": "Explícaselo.",
+        "english": "Explain it to him/her.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m16-s28",
+        "spanish": "Enséñaselo.",
+        "english": "Show it to him/her.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m16-s29",
+        "spanish": "Siéntate aquí.",
+        "english": "Sit here.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m16-s30",
+        "spanish": "Siéntese aquí.",
+        "english": "Sit here. (formal)",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m16-s31",
+        "spanish": "Quédate en casa.",
+        "english": "Stay at home.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m16-s32",
+        "spanish": "Quédese en casa.",
+        "english": "Stay at home. (formal)",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m16-s33",
+        "spanish": "Ven.",
+        "english": "Come.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m16-s34",
+        "spanish": "Venga.",
+        "english": "Come. (formal)",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m16-s35",
+        "spanish": "Id.",
+        "english": "Go. (you plural, Spain)",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m16-s36",
+        "spanish": "Vayan.",
+        "english": "Go. (you plural)",
+        "wordMeanings": {}
+      }
+    ]
+  },
+  {
+    "id": "module-17",
+    "title": "Chapter 17",
+    "description": "Practice sentences for Chapter 17.",
+    "level": "Beginner",
+    "sentences": [
+      {
+        "id": "m17-s1",
+        "spanish": "No hables.",
+        "english": "Don't speak.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m17-s2",
+        "spanish": "No coma.",
+        "english": "Don't eat. (formal)",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m17-s3",
+        "spanish": "No vivas aquí.",
+        "english": "Don't live here.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m17-s4",
+        "spanish": "No espere aquí.",
+        "english": "Don't wait here. (formal)",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m17-s5",
+        "spanish": "No abras la puerta.",
+        "english": "Don't open the door.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m17-s6",
+        "spanish": "No abra la puerta.",
+        "english": "Don't open the door. (formal)",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m17-s7",
+        "spanish": "No abran la puerta.",
+        "english": "Don't open the door. (plural)",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m17-s8",
+        "spanish": "No mires eso.",
+        "english": "Don't look at that.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m17-s9",
+        "spanish": "No mire eso.",
+        "english": "Don't look at that. (formal)",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m17-s10",
+        "spanish": "No escuchen.",
+        "english": "Don't listen. (plural)",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m17-s11",
+        "spanish": "No digas eso.",
+        "english": "Don't say that.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m17-s12",
+        "spanish": "No diga eso.",
+        "english": "Don't say that. (formal)",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m17-s13",
+        "spanish": "No me digas eso.",
+        "english": "Don't tell me that.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m17-s14",
+        "spanish": "No me lo digas.",
+        "english": "Don't tell it to me.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m17-s15",
+        "spanish": "No se lo des.",
+        "english": "Don't give it to him/her.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m17-s16",
+        "spanish": "No se la des.",
+        "english": "Don't give it to him/her.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m17-s17",
+        "spanish": "No me lo des.",
+        "english": "Don't give it to me.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m17-s18",
+        "spanish": "No te sientes aquí.",
+        "english": "Don't sit here.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m17-s19",
+        "spanish": "No se siente aquí.",
+        "english": "Don't sit here. (formal)",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m17-s20",
+        "spanish": "No te quedes en casa.",
+        "english": "Don't stay at home.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m17-s21",
+        "spanish": "No vayas ahora.",
+        "english": "Don't go now.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m17-s22",
+        "spanish": "No venga ahora.",
+        "english": "Don't come now. (formal)",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m17-s23",
+        "spanish": "No vayan ahora.",
+        "english": "Don't go now. (plural)",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m17-s24",
+        "spanish": "No lo compres.",
+        "english": "Don't buy it.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m17-s25",
+        "spanish": "No la compres.",
+        "english": "Don't buy it.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m17-s26",
+        "spanish": "No los compres.",
+        "english": "Don't buy them.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m17-s27",
+        "spanish": "No las compres.",
+        "english": "Don't buy them.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m17-s28",
+        "spanish": "No hables tan rápido.",
+        "english": "Don't speak so fast.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m17-s29",
+        "spanish": "No coma tan rápido.",
+        "english": "Don't eat so fast. (formal)",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m17-s30",
+        "spanish": "No llegues tarde.",
+        "english": "Don't arrive late.",
+        "wordMeanings": {}
+      }
+    ]
+  },
+  {
+    "id": "module-18",
+    "title": "Chapter 18",
+    "description": "Practice sentences for Chapter 18.",
+    "level": "Beginner",
+    "sentences": [
+      {
+        "id": "m18-s1",
+        "spanish": "Quiero que hables.",
+        "english": "I want you to speak.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m18-s2",
+        "spanish": "Quiero que comas.",
+        "english": "I want you to eat.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m18-s3",
+        "spanish": "Quiero que vivas aquí.",
+        "english": "I want you to live here.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m18-s4",
+        "spanish": "Quiero que estudies hoy.",
+        "english": "I want you to study today.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m18-s5",
+        "spanish": "Quiero que trabajes mañana.",
+        "english": "I want you to work tomorrow.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m18-s6",
+        "spanish": "Quiero que abras la puerta.",
+        "english": "I want you to open the door.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m18-s7",
+        "spanish": "Quiero que cierres la ventana.",
+        "english": "I want you to close the window.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m18-s8",
+        "spanish": "Quiero que esperes aquí.",
+        "english": "I want you to wait here.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m18-s9",
+        "spanish": "Quiero que me escuches.",
+        "english": "I want you to listen to me.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m18-s10",
+        "spanish": "Quiero que me mires.",
+        "english": "I want you to look at me.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m18-s11",
+        "spanish": "Quiero que me digas la verdad.",
+        "english": "I want you to tell me the truth.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m18-s12",
+        "spanish": "Quiero que me lo digas.",
+        "english": "I want you to tell it to me.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m18-s13",
+        "spanish": "Quiero que se lo des a Ana.",
+        "english": "I want you to give it to Ana.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m18-s14",
+        "spanish": "Quiero que se la des a Luis.",
+        "english": "I want you to give it to Luis.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m18-s15",
+        "spanish": "Quiero que vengas ahora.",
+        "english": "I want you to come now.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m18-s16",
+        "spanish": "Quiero que vayas conmigo.",
+        "english": "I want you to go with me.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m18-s17",
+        "spanish": "¿Quieres que hable?",
+        "english": "Do you want me to speak?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m18-s18",
+        "spanish": "Sí, quiero que hables.",
+        "english": "Yes, I want you to speak.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m18-s19",
+        "spanish": "No, no quiero que hables.",
+        "english": "No, I don't want you to speak.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m18-s20",
+        "spanish": "¿Quieres que abra la puerta?",
+        "english": "Do you want me to open the door?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m18-s21",
+        "spanish": "Sí, quiero que abras la puerta.",
+        "english": "Yes, I want you to open the door.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m18-s22",
+        "spanish": "Quiero que llegues temprano.",
+        "english": "I want you to arrive early.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m18-s23",
+        "spanish": "Quiero que no llegues tarde.",
+        "english": "I want you not to arrive late.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m18-s24",
+        "spanish": "Quiero que te sientes aquí.",
+        "english": "I want you to sit here.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m18-s25",
+        "spanish": "Quiero que te quedes en casa.",
+        "english": "I want you to stay at home.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m18-s26",
+        "spanish": "Quiero que compres pan.",
+        "english": "I want you to buy bread.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m18-s27",
+        "spanish": "Quiero que compres café.",
+        "english": "I want you to buy coffee.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m18-s28",
+        "spanish": "Quiero que lo compres hoy.",
+        "english": "I want you to buy it today.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m18-s29",
+        "spanish": "Quiero que la compres hoy.",
+        "english": "I want you to buy it today.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m18-s30",
+        "spanish": "Quiero que los compres hoy.",
+        "english": "I want you to buy them today.",
+        "wordMeanings": {}
+      }
+    ]
+  },
+  {
+    "id": "module-19",
+    "title": "Chapter 19",
+    "description": "Practice sentences for Chapter 19.",
+    "level": "Beginner",
+    "sentences": [
+      {
+        "id": "m19-s1",
+        "spanish": "Espero que hables.",
+        "english": "I hope you speak.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m19-s2",
+        "spanish": "Espero que comas bien.",
+        "english": "I hope you eat well.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m19-s3",
+        "spanish": "Espero que vivas bien aquí.",
+        "english": "I hope you live well here.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m19-s4",
+        "spanish": "Espero que estudies hoy.",
+        "english": "I hope you study today.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m19-s5",
+        "spanish": "Espero que trabajes mañana.",
+        "english": "I hope you work tomorrow.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m19-s6",
+        "spanish": "Espero que abras la puerta.",
+        "english": "I hope you open the door.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m19-s7",
+        "spanish": "Espero que cierres la ventana.",
+        "english": "I hope you close the window.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m19-s8",
+        "spanish": "Espero que esperes aquí.",
+        "english": "I hope you wait here.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m19-s9",
+        "spanish": "Espero que me escuches.",
+        "english": "I hope you listen to me.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m19-s10",
+        "spanish": "Espero que me digas la verdad.",
+        "english": "I hope you tell me the truth.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m19-s11",
+        "spanish": "Espero que me lo digas.",
+        "english": "I hope you tell it to me.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m19-s12",
+        "spanish": "Espero que vengas mañana.",
+        "english": "I hope you come tomorrow.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m19-s13",
+        "spanish": "Espero que vayas conmigo.",
+        "english": "I hope you go with me.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m19-s14",
+        "spanish": "Espero que tengas tiempo.",
+        "english": "I hope you have time.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m19-s15",
+        "spanish": "Espero que tengas dinero.",
+        "english": "I hope you have money.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m19-s16",
+        "spanish": "Espero que estés aquí.",
+        "english": "I hope you are here.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m19-s17",
+        "spanish": "Espero que estés bien.",
+        "english": "I hope you are well.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m19-s18",
+        "spanish": "Espero que seas feliz.",
+        "english": "I hope you are happy.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m19-s19",
+        "spanish": "¿Esperas que hable?",
+        "english": "Do you hope that I speak?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m19-s20",
+        "spanish": "Sí, espero que hables.",
+        "english": "Yes, I hope you speak.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m19-s21",
+        "spanish": "No, no espero que hables.",
+        "english": "No, I don't expect you to speak.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m19-s22",
+        "spanish": "Espero que llegues temprano.",
+        "english": "I hope you arrive early.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m19-s23",
+        "spanish": "Espero que no llegues tarde.",
+        "english": "I hope you don't arrive late.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m19-s24",
+        "spanish": "Espero que te sientes aquí.",
+        "english": "I hope you sit here.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m19-s25",
+        "spanish": "Espero que te quedes.",
+        "english": "I hope you stay.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m19-s26",
+        "spanish": "Espero que compres pan.",
+        "english": "I hope you buy bread.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m19-s27",
+        "spanish": "Espero que lo compres hoy.",
+        "english": "I hope you buy it today.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m19-s28",
+        "spanish": "Espero que la compres hoy.",
+        "english": "I hope you buy it today.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m19-s29",
+        "spanish": "Espero que los compres hoy.",
+        "english": "I hope you buy them today.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m19-s30",
+        "spanish": "Espero que las compres hoy.",
+        "english": "I hope you buy them today.",
+        "wordMeanings": {}
+      }
+    ]
+  },
+  {
+    "id": "module-20",
+    "title": "Chapter 20",
+    "description": "Practice sentences for Chapter 20.",
+    "level": "Beginner",
+    "sentences": [
+      {
+        "id": "m20-s1",
+        "spanish": "Es importante que hables.",
+        "english": "It's important that you speak.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m20-s2",
+        "spanish": "Es importante que escuches.",
+        "english": "It's important that you listen.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m20-s3",
+        "spanish": "Es importante que estudies.",
+        "english": "It's important that you study.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m20-s4",
+        "spanish": "Es importante que trabajes.",
+        "english": "It's important that you work.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m20-s5",
+        "spanish": "Es importante que comas bien.",
+        "english": "It's important that you eat well.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m20-s6",
+        "spanish": "Es importante que bebas agua.",
+        "english": "It's important that you drink water.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m20-s7",
+        "spanish": "Es importante que duermas bien.",
+        "english": "It's important that you sleep well.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m20-s8",
+        "spanish": "Es importante que descanses.",
+        "english": "It's important that you rest.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m20-s9",
+        "spanish": "Es importante que llegues temprano.",
+        "english": "It's important that you arrive early.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m20-s10",
+        "spanish": "Es importante que no llegues tarde.",
+        "english": "It's important that you not arrive late.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m20-s11",
+        "spanish": "Es importante que vengas mañana.",
+        "english": "It's important that you come tomorrow.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m20-s12",
+        "spanish": "Es importante que vayas hoy.",
+        "english": "It's important that you go today.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m20-s13",
+        "spanish": "Es importante que abras la puerta.",
+        "english": "It's important that you open the door.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m20-s14",
+        "spanish": "Es importante que cierres la ventana.",
+        "english": "It's important that you close the window.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m20-s15",
+        "spanish": "Es importante que me escuches.",
+        "english": "It's important that you listen to me.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m20-s16",
+        "spanish": "Es importante que me digas la verdad.",
+        "english": "It's important that you tell me the truth.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m20-s17",
+        "spanish": "Es importante que me lo digas.",
+        "english": "It's important that you tell it to me.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m20-s18",
+        "spanish": "Es importante que se lo des a Ana.",
+        "english": "It's important that you give it to Ana.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m20-s19",
+        "spanish": "Es importante que se la des a Luis.",
+        "english": "It's important that you give it to Luis.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m20-s20",
+        "spanish": "Es importante que tengas tiempo.",
+        "english": "It's important that you have time.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m20-s21",
+        "spanish": "Es importante que tengas dinero.",
+        "english": "It's important that you have money.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m20-s22",
+        "spanish": "Es importante que estés aquí.",
+        "english": "It's important that you are here.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m20-s23",
+        "spanish": "Es importante que estés bien.",
+        "english": "It's important that you are well.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m20-s24",
+        "spanish": "Es importante que seas paciente.",
+        "english": "It's important that you are patient.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m20-s25",
+        "spanish": "Es importante que seas amable.",
+        "english": "It's important that you are kind.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m20-s26",
+        "spanish": "Es importante que lo compres hoy.",
+        "english": "It's important that you buy it today.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m20-s27",
+        "spanish": "Es importante que la compres hoy.",
+        "english": "It's important that you buy it today.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m20-s28",
+        "spanish": "Es importante que los compres hoy.",
+        "english": "It's important that you buy them today.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m20-s29",
+        "spanish": "Es importante que las compres hoy.",
+        "english": "It's important that you buy them today.",
+        "wordMeanings": {}
+      }
+    ]
+  },
+  {
+    "id": "module-21",
+    "title": "Chapter 21",
+    "description": "Practice sentences for Chapter 21.",
+    "level": "Beginner",
+    "sentences": [
+      {
+        "id": "m21-s1",
+        "spanish": "Si tienes tiempo, vienes.",
+        "english": "If you have time, you come.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m21-s2",
+        "spanish": "Si tienes dinero, compras pan.",
+        "english": "If you have money, you buy bread.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m21-s3",
+        "spanish": "Si estudias, aprendes.",
+        "english": "If you study, you learn.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m21-s4",
+        "spanish": "Si trabajas mucho, ganas dinero.",
+        "english": "If you work a lot, you earn money.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m21-s5",
+        "spanish": "Si comes bien, duermes bien.",
+        "english": "If you eat well, you sleep well.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m21-s6",
+        "spanish": "Si bebes agua, estás mejor.",
+        "english": "If you drink water, you feel better.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m21-s7",
+        "spanish": "Si llegas temprano, hablamos.",
+        "english": "If you arrive early, we talk.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m21-s8",
+        "spanish": "Si llegas tarde, no comemos juntos.",
+        "english": "If you arrive late, we don't eat together.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m21-s9",
+        "spanish": "Si vienes mañana, vamos al café.",
+        "english": "If you come tomorrow, we go to the café.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m21-s10",
+        "spanish": "Si vas hoy, compras el libro.",
+        "english": "If you go today, you buy the book.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m21-s11",
+        "spanish": "Si abres la puerta, entra.",
+        "english": "If you open the door, he/she comes in.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m21-s12",
+        "spanish": "Si cierras la ventana, está mejor.",
+        "english": "If you close the window, it's better.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m21-s13",
+        "spanish": "Si me escuchas, entiendes.",
+        "english": "If you listen to me, you understand.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m21-s14",
+        "spanish": "Si me dices la verdad, te ayudo.",
+        "english": "If you tell me the truth, I help you.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m21-s15",
+        "spanish": "Si me lo dices, lo entiendo.",
+        "english": "If you tell it to me, I understand it.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m21-s16",
+        "spanish": "Si lo compras hoy, es más barato.",
+        "english": "If you buy it today, it's cheaper.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m21-s17",
+        "spanish": "Si la compras hoy, es más barata.",
+        "english": "If you buy it today, it's cheaper.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m21-s18",
+        "spanish": "Si los compras hoy, es mejor.",
+        "english": "If you buy them today, it's better.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m21-s19",
+        "spanish": "Si las compras hoy, es mejor.",
+        "english": "If you buy them today, it's better.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m21-s20",
+        "spanish": "Si tienes hambre, comes ahora.",
+        "english": "If you're hungry, you eat now.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m21-s21",
+        "spanish": "Si tienes sed, bebes agua.",
+        "english": "If you're thirsty, you drink water.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m21-s22",
+        "spanish": "Si estás aquí, te veo.",
+        "english": "If you're here, I see you.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m21-s23",
+        "spanish": "Si no estás aquí, no te veo.",
+        "english": "If you're not here, I don't see you.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m21-s24",
+        "spanish": "Si quieres, hablo.",
+        "english": "If you want, I speak.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m21-s25",
+        "spanish": "Si quieres, abro la puerta.",
+        "english": "If you want, I open the door.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m21-s26",
+        "spanish": "Si quieres, te espero.",
+        "english": "If you want, I wait for you.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m21-s27",
+        "spanish": "Si puedes, vienes ahora.",
+        "english": "If you can, you come now.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m21-s28",
+        "spanish": "Si no puedes, vienes mañana.",
+        "english": "If you can't, you come tomorrow.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m21-s29",
+        "spanish": "Si llueve, me quedo en casa.",
+        "english": "If it rains, I stay at home.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m21-s30",
+        "spanish": "Si hace sol, vamos al centro.",
+        "english": "If it's sunny, we go downtown.",
+        "wordMeanings": {}
+      }
+    ]
+  },
+  {
+    "id": "module-22",
+    "title": "Chapter 22",
+    "description": "Practice sentences for Chapter 22.",
+    "level": "Beginner",
+    "sentences": [
+      {
+        "id": "m22-s1",
+        "spanish": "Si tuviera tiempo, vendría.",
+        "english": "If I had time, I would come.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m22-s2",
+        "spanish": "Si tuviera dinero, compraría el libro.",
+        "english": "If I had money, I would buy the book.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m22-s3",
+        "spanish": "Si estudiaras más, aprenderías más.",
+        "english": "If you studied more, you would learn more.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m22-s4",
+        "spanish": "Si trabajaras menos, descansarías más.",
+        "english": "If you worked less, you would rest more.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m22-s5",
+        "spanish": "Si comieras mejor, dormirías mejor.",
+        "english": "If you ate better, you would sleep better.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m22-s6",
+        "spanish": "Si bebieras agua, estarías mejor.",
+        "english": "If you drank water, you would feel better.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m22-s7",
+        "spanish": "Si llegaras temprano, hablaríamos más.",
+        "english": "If you arrived early, we would talk more.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m22-s8",
+        "spanish": "Si llegaras tarde, no comeríamos juntos.",
+        "english": "If you arrived late, we wouldn't eat together.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m22-s9",
+        "spanish": "Si vinieras mañana, iríamos al café.",
+        "english": "If you came tomorrow, we would go to the café.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m22-s10",
+        "spanish": "Si fueras hoy, comprarías el pan.",
+        "english": "If you went today, you would buy the bread.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m22-s11",
+        "spanish": "Si abrieras la puerta, entraría.",
+        "english": "If you opened the door, he/she would come in.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m22-s12",
+        "spanish": "Si cerraras la ventana, estaría mejor.",
+        "english": "If you closed the window, it would be better.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m22-s13",
+        "spanish": "Si me escucharas, entenderías.",
+        "english": "If you listened to me, you would understand.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m22-s14",
+        "spanish": "Si me dijeras la verdad, te ayudaría.",
+        "english": "If you told me the truth, I would help you.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m22-s15",
+        "spanish": "Si me lo dijeras, lo entendería.",
+        "english": "If you told it to me, I would understand it.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m22-s16",
+        "spanish": "Si lo compraras hoy, sería más barato.",
+        "english": "If you bought it today, it would be cheaper.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m22-s17",
+        "spanish": "Si la compraras hoy, sería más barata.",
+        "english": "If you bought it today, it would be cheaper.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m22-s18",
+        "spanish": "Si los compraras hoy, sería mejor.",
+        "english": "If you bought them today, it would be better.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m22-s19",
+        "spanish": "Si las compraras hoy, sería mejor.",
+        "english": "If you bought them today, it would be better.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m22-s20",
+        "spanish": "Si estuvieras aquí, te vería.",
+        "english": "If you were here, I would see you.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m22-s21",
+        "spanish": "Si no estuvieras aquí, no te vería.",
+        "english": "If you weren't here, I wouldn't see you.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m22-s22",
+        "spanish": "Si fueras paciente, todo sería más fácil.",
+        "english": "If you were patient, everything would be easier.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m22-s23",
+        "spanish": "Si fueras amable, él hablaría contigo.",
+        "english": "If you were kind, he would speak with you.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m22-s24",
+        "spanish": "Si pudiera, iría ahora.",
+        "english": "If I could, I would go now.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m22-s25",
+        "spanish": "Si no pudiera, iría mañana.",
+        "english": "If I couldn't, I would go tomorrow.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m22-s26",
+        "spanish": "Si quisiera, hablaría.",
+        "english": "If I wanted, I would speak.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m22-s27",
+        "spanish": "Si quisieras, abriría la puerta.",
+        "english": "If you wanted, I would open the door.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m22-s28",
+        "spanish": "Si lloviera, me quedaría en casa.",
+        "english": "If it rained, I would stay at home.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m22-s29",
+        "spanish": "Si hiciera sol, iríamos al centro.",
+        "english": "If it were sunny, we would go downtown.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m22-s30",
+        "spanish": "Si vinieras conmigo, estaría contento.",
+        "english": "If you came with me, I would be happy.",
+        "wordMeanings": {}
+      }
+    ]
+  },
+  {
+    "id": "module-23",
+    "title": "Chapter 23",
+    "description": "Practice sentences for Chapter 23.",
+    "level": "Beginner",
+    "sentences": [
+      {
+        "id": "m23-s1",
+        "spanish": "Acabo de llegar.",
+        "english": "I just arrived.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m23-s2",
+        "spanish": "Acabas de llegar.",
+        "english": "You just arrived.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m23-s3",
+        "spanish": "Acaba de llegar.",
+        "english": "He/She just arrived.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m23-s4",
+        "spanish": "Acabamos de llegar.",
+        "english": "We just arrived.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m23-s5",
+        "spanish": "Acabo de comer.",
+        "english": "I just ate.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m23-s6",
+        "spanish": "Acabas de comer.",
+        "english": "You just ate.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m23-s7",
+        "spanish": "Acaba de comer.",
+        "english": "He/She just ate.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m23-s8",
+        "spanish": "Acabamos de comer.",
+        "english": "We just ate.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m23-s9",
+        "spanish": "Acabo de beber agua.",
+        "english": "I just drank water.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m23-s10",
+        "spanish": "Acabas de abrir la puerta.",
+        "english": "You just opened the door.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m23-s11",
+        "spanish": "Acaba de cerrar la ventana.",
+        "english": "He/She just closed the window.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m23-s12",
+        "spanish": "Acabamos de comprar pan.",
+        "english": "We just bought bread.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m23-s13",
+        "spanish": "Acabo de comprar el libro.",
+        "english": "I just bought the book.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m23-s14",
+        "spanish": "Lo acabo de comprar.",
+        "english": "I just bought it.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m23-s15",
+        "spanish": "Acabo de comprar la carta.",
+        "english": "I just bought the letter.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m23-s16",
+        "spanish": "La acabo de comprar.",
+        "english": "I just bought it.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m23-s17",
+        "spanish": "Acabo de ver a Ana.",
+        "english": "I just saw Ana.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m23-s18",
+        "spanish": "La acabo de ver.",
+        "english": "I just saw her.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m23-s19",
+        "spanish": "Acabo de llamar a Luis.",
+        "english": "I just called Luis.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m23-s20",
+        "spanish": "Lo acabo de llamar.",
+        "english": "I just called him.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m23-s21",
+        "spanish": "Acabo de darle el libro a Ana.",
+        "english": "I just gave Ana the book.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m23-s22",
+        "spanish": "Se lo acabo de dar.",
+        "english": "I just gave it to her.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m23-s23",
+        "spanish": "Acabo de darle la carta a Luis.",
+        "english": "I just gave Luis the letter.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m23-s24",
+        "spanish": "Se la acabo de dar.",
+        "english": "I just gave it to him.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m23-s25",
+        "spanish": "¿Acabas de llegar?",
+        "english": "Did you just arrive?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m23-s26",
+        "spanish": "Sí, acabo de llegar.",
+        "english": "Yes, I just arrived.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m23-s27",
+        "spanish": "¿Acabas de comer?",
+        "english": "Did you just eat?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m23-s28",
+        "spanish": "No, no acabo de comer.",
+        "english": "No, I didn't just eat.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m23-s29",
+        "spanish": "Acabo de hablar con Marta.",
+        "english": "I just spoke with Marta.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m23-s30",
+        "spanish": "Acabo de decirle la verdad.",
+        "english": "I just told him/her the truth.",
+        "wordMeanings": {}
+      }
+    ]
+  },
+  {
+    "id": "module-24",
+    "title": "Chapter 24",
+    "description": "Practice sentences for Chapter 24.",
+    "level": "Beginner",
+    "sentences": [
+      {
+        "id": "m24-s1",
+        "spanish": "Llevo una hora estudiando.",
+        "english": "I’ve been studying for one hour.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m24-s2",
+        "spanish": "Llevas una hora estudiando.",
+        "english": "You’ve been studying for one hour.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m24-s3",
+        "spanish": "Lleva una hora estudiando.",
+        "english": "He/She has been studying for one hour.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m24-s4",
+        "spanish": "Llevamos una hora estudiando.",
+        "english": "We’ve been studying for one hour.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m24-s5",
+        "spanish": "Llevo dos horas trabajando.",
+        "english": "I’ve been working for two hours.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m24-s6",
+        "spanish": "Llevas dos horas trabajando.",
+        "english": "You’ve been working for two hours.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m24-s7",
+        "spanish": "Lleva dos horas trabajando.",
+        "english": "He/She has been working for two hours.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m24-s8",
+        "spanish": "Llevamos dos horas trabajando.",
+        "english": "We’ve been working for two hours.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m24-s9",
+        "spanish": "Llevo media hora esperando.",
+        "english": "I’ve been waiting for half an hour.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m24-s10",
+        "spanish": "Llevas media hora esperando.",
+        "english": "You’ve been waiting for half an hour.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m24-s11",
+        "spanish": "Lleva media hora esperando.",
+        "english": "He/She has been waiting for half an hour.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m24-s12",
+        "spanish": "Llevo mucho tiempo viviendo aquí.",
+        "english": "I’ve been living here for a long time.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m24-s13",
+        "spanish": "Llevas mucho tiempo viviendo aquí.",
+        "english": "You’ve been living here for a long time.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m24-s14",
+        "spanish": "Lleva mucho tiempo viviendo aquí.",
+        "english": "He/She has been living here for a long time.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m24-s15",
+        "spanish": "Llevo veinte minutos hablando.",
+        "english": "I’ve been talking for twenty minutes.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m24-s16",
+        "spanish": "Llevas veinte minutos hablando.",
+        "english": "You’ve been talking for twenty minutes.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m24-s17",
+        "spanish": "Lleva veinte minutos hablando.",
+        "english": "He/She has been talking for twenty minutes.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m24-s18",
+        "spanish": "Llevo todo el día pensando en eso.",
+        "english": "I’ve been thinking about that all day.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m24-s19",
+        "spanish": "Llevas todo el día mirando el teléfono.",
+        "english": "You’ve been looking at the phone all day.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m24-s20",
+        "spanish": "Lleva todo el día escuchando música.",
+        "english": "He/She has been listening to music all day.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m24-s21",
+        "spanish": "Llevo una semana buscando trabajo.",
+        "english": "I’ve been looking for work for one week.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m24-s22",
+        "spanish": "Llevas una semana buscando el libro.",
+        "english": "You’ve been looking for the book for one week.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m24-s23",
+        "spanish": "Lleva una semana buscando casa.",
+        "english": "He/She has been looking for a house for one week.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m24-s24",
+        "spanish": "Llevo una hora leyéndolo.",
+        "english": "I’ve been reading it for one hour.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m24-s25",
+        "spanish": "Llevo una hora escribiéndola.",
+        "english": "I’ve been writing it for one hour.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m24-s26",
+        "spanish": "Lleva una hora dándoselo.",
+        "english": "He/She has been giving it to him/her for one hour.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m24-s27",
+        "spanish": "¿Llevas mucho tiempo esperando?",
+        "english": "Have you been waiting a long time?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m24-s28",
+        "spanish": "Sí, llevo mucho tiempo esperando.",
+        "english": "Yes, I’ve been waiting a long time.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m24-s29",
+        "spanish": "¿Llevas mucho tiempo trabajando aquí?",
+        "english": "Have you been working here a long time?",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m24-s30",
+        "spanish": "No, no llevo mucho tiempo trabajando aquí.",
+        "english": "No, I haven’t been working here long.",
+        "wordMeanings": {}
+      },
+      {
+        "id": "m24-s31",
+        "spanish": "Llevo años aprendiendo español.",
+        "english": "I’ve been learning Spanish for years.",
+        "wordMeanings": {}
+      }
+    ]
+  }
+]
