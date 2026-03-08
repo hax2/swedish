@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect, useCallback, useMemo } from 'react';
 import './LessonPlayer.css';
 
 /* ── helpers ─────────────────────────────────────────────── */
@@ -17,6 +17,49 @@ const buildVocabTable = (sentences) => {
   return Array.from(map.values());
 };
 
+/** Deterministic pseudo-random from a seed string */
+const seededRandom = (seed) => {
+  let h = 0;
+  for (let i = 0; i < seed.length; i++) {
+    h = Math.imul(31, h) + seed.charCodeAt(i) | 0;
+  }
+  return Math.abs(h);
+};
+
+/**
+ * Build a merged list of regular sentence items + translation-challenge items.
+ * A challenge is inserted after every CHALLENGE_INTERVAL sentences.
+ * Each challenge picks one sentence from the preceding batch.
+ */
+const CHALLENGE_INTERVAL = 5;
+
+const buildMergedItems = (sentences, moduleId) => {
+  const items = [];
+  let sentenceCount = 0;
+
+  for (let i = 0; i < sentences.length; i++) {
+    items.push({ type: 'sentence', data: sentences[i], originalIndex: i });
+    sentenceCount++;
+
+    if (sentenceCount === CHALLENGE_INTERVAL && i < sentences.length - 1) {
+      // Pick one sentence from this batch to quiz on
+      const batchStart = i - (CHALLENGE_INTERVAL - 1);
+      const seed = `${moduleId}-challenge-${items.length}`;
+      const pick = seededRandom(seed) % CHALLENGE_INTERVAL;
+      const chosenSentence = sentences[batchStart + pick];
+
+      items.push({
+        type: 'challenge',
+        data: chosenSentence,
+        batchStart,
+        batchEnd: i,
+      });
+      sentenceCount = 0;
+    }
+  }
+  return items;
+};
+
 /** Speak a Spanish word/phrase */
 const speakSpanish = (text) => {
   if (!text) return;
@@ -33,29 +76,55 @@ const LessonPlayer = ({ module, modules, moduleIndex, onBack, onNextModule }) =>
   const [spanishRevealed, setSpanishRevealed] = useState(false);
   const [englishRevealed, setEnglishRevealed] = useState(false);
   const [activeWordIndex, setActiveWordIndex] = useState(null);
+  const [challengeAnswerRevealed, setChallengeAnswerRevealed] = useState(false);
+  const [extraItems, setExtraItems] = useState([]);
 
-  const sentence = module.sentences[currentIndex];
-  const isFinished = currentIndex >= module.sentences.length;
+  /* Build merged items list (sentences + challenges + extras) */
+  const mergedItems = useMemo(() => {
+    const base = buildMergedItems(module.sentences, module.id);
+    return [...base, ...extraItems];
+  }, [module, extraItems]);
+
+  const currentItem = mergedItems[currentIndex];
+  const isChallenge = currentItem?.type === 'challenge';
+  const sentence = isChallenge ? null : currentItem?.data;
+  const isFinished = currentIndex >= mergedItems.length;
   const hasNextModule = moduleIndex < modules.length - 1;
   const vocabTable = isFinished ? buildVocabTable(module.sentences) : [];
 
-  /* reset + auto-play on sentence change */
+  /* Count only sentence items for progress display */
+  const totalSentences = module.sentences.length;
+  const sentencesSoFar = isFinished
+    ? totalSentences
+    : mergedItems.slice(0, currentIndex + 1).filter((it) => it.type === 'sentence').length;
+
+  /* reset + auto-play on item change */
   useEffect(() => {
     setSpanishRevealed(false);
     setEnglishRevealed(false);
     setActiveWordIndex(null);
-    if (sentence?.spanish) speakSpanish(sentence.spanish);
+    setChallengeAnswerRevealed(false);
+    if (!isChallenge && sentence?.spanish) speakSpanish(sentence.spanish);
   }, [currentIndex, module]);
 
-  /* reset to sentence 0 when module changes */
+  /* reset to item 0 and clear extras when module changes */
   useEffect(() => {
     setCurrentIndex(0);
+    setExtraItems([]);
   }, [module]);
 
   const playAudio = () => sentence && speakSpanish(sentence.spanish);
 
   const handleNext = () => setCurrentIndex((p) => p + 1);
   const handlePrev = () => setCurrentIndex((p) => Math.max(0, p - 1));
+
+  const handleMarkForLater = () => {
+    if (!sentence) return;
+    setExtraItems((prev) => [
+      ...prev,
+      { type: 'sentence', data: sentence, originalIndex: currentItem.originalIndex, isRepeat: true }
+    ]);
+  };
 
   const getMeaning = (word) => {
     const cw = cleanWord(word);
@@ -123,9 +192,91 @@ const LessonPlayer = ({ module, modules, moduleIndex, onBack, onNextModule }) =>
     );
   }
 
+  /* ── TRANSLATION CHALLENGE SCREEN ─────────────────────── */
+  if (isChallenge) {
+    const challengeSentence = currentItem.data;
+    const progressPercentage = (sentencesSoFar / totalSentences) * 100;
+
+    return (
+      <div className="lesson-player animate-fade-in">
+        {/* Header / Progress */}
+        <div className="lesson-header">
+          <button className="btn-secondary btn-sm" onClick={onBack}>← Back</button>
+          <div className="progress-wrapper">
+            <div className="progress-container">
+              <div className="progress-bar-fill" style={{ width: `${progressPercentage}%` }} />
+            </div>
+          </div>
+          <span className="progress-text">
+            {sentencesSoFar} / {totalSentences}
+          </span>
+        </div>
+
+        <div className="lesson-content glass-panel challenge-panel">
+          {/* Challenge badge */}
+          <div className="challenge-badge">
+            <span className="challenge-icon">🗣️</span>
+            <span>Translation Challenge</span>
+          </div>
+
+          {/* Prompt */}
+          <div className="challenge-prompt">
+            <p className="challenge-instruction">Translate this sentence into Spanish:</p>
+            <p className="challenge-english">{challengeSentence.english}</p>
+          </div>
+
+          {/* Answer area */}
+          <div className="challenge-answer-area">
+            {!challengeAnswerRevealed ? (
+              <button
+                className="btn-primary btn-reveal-answer pulse-primary"
+                onClick={() => {
+                  setChallengeAnswerRevealed(true);
+                  speakSpanish(challengeSentence.spanish);
+                }}
+              >
+                Reveal Answer
+              </button>
+            ) : (
+              <div className="challenge-answer animate-fade-in">
+                <p className="challenge-spanish">{challengeSentence.spanish}</p>
+                <button
+                  className="btn-play-answer"
+                  onClick={() => speakSpanish(challengeSentence.spanish)}
+                  title="Listen to the answer"
+                >
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M8 5v14l11-7z" />
+                  </svg>
+                  <span>Listen</span>
+                </button>
+              </div>
+            )}
+          </div>
+
+          {/* Navigation */}
+          <div className="actions-area">
+            <div className="actions-row">
+              <button
+                className="btn-secondary"
+                onClick={handlePrev}
+                disabled={currentIndex === 0}
+              >
+                ← Previous
+              </button>
+              <button className="btn-primary" onClick={handleNext}>
+                Continue →
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   /* ── NORMAL LESSON SCREEN ───────────────────────────────── */
   const words = sentence.spanish.split(' ');
-  const progressPercentage = (currentIndex / module.sentences.length) * 100;
+  const progressPercentage = (sentencesSoFar / totalSentences) * 100;
 
   return (
     <div className="lesson-player animate-fade-in">
@@ -139,11 +290,17 @@ const LessonPlayer = ({ module, modules, moduleIndex, onBack, onNextModule }) =>
           </div>
         </div>
         <span className="progress-text">
-          {currentIndex + 1} / {module.sentences.length}
+          {sentencesSoFar} / {totalSentences}
         </span>
       </div>
 
       <div className="lesson-content glass-panel">
+        {currentItem.isRepeat && (
+          <div className="review-badge animate-fade-in">
+            <span>🔄</span>
+            <span>Reviewing</span>
+          </div>
+        )}
 
         {/* Audio section */}
         <div className="audio-section">
@@ -208,8 +365,12 @@ const LessonPlayer = ({ module, modules, moduleIndex, onBack, onNextModule }) =>
             >
               ← Previous
             </button>
-            <button className="btn-secondary" onClick={handleNext}>
-              I understood it
+            <button
+              className="btn-mark-later"
+              onClick={handleMarkForLater}
+              title="See this sentence again at the end"
+            >
+              Mark for later
             </button>
             <button className="btn-primary" onClick={handleNext}>
               Next →
